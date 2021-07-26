@@ -1,0 +1,19 @@
+# 内容：cf
+# 数量：1条
+DOMAIN,cloudflare-dns.com
+
+# 内容：opendns
+# 数量：1条
+DOMAIN,doh.opendns.com
+
+# 内容：google
+# 数量：1条
+DOMAIN,dns.google
+
+# 内容：cleanbrowsing
+# 数量：1条
+DOMAIN,doh.cleanbrowsing.org
+
+# 内容：xhrzg2017
+# 数量：1条
+DOMAIN,doh.xhrzg2017.xyz
