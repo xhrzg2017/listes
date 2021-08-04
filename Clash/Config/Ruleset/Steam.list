@@ -3,6 +3,7 @@
 DOMAIN,cdn.akamai.steamstatic.com
 DOMAIN,store.akamai.steamstatic.com
 DOMAIN,cdn.cloudflare.steamstatic.com
+DOMAIN,store.cloudflare.steamstatic.com
 
 # 内容：alien
 DOMAIN-SUFFIX,alienwarearena.com
