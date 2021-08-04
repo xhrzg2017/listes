@@ -1,6 +1,8 @@
 # 内容：steam
-# 数量：1条
-DOMAIN-SUFFIX,steamstatic.com
+# 数量：3条
+DOMAIN,cdn.akamai.steamstatic.com
+DOMAIN,store.akamai.steamstatic.com
+DOMAIN,cdn.cloudflare.steamstatic.com
 
 # 内容：alien
 DOMAIN-SUFFIX,alienwarearena.com
