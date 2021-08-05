@@ -1,8 +1,10 @@
 # 内容：steam
-# 数量：3条
+# 数量：6条
 DOMAIN,cdn.akamai.steamstatic.com
+DOMAIN,community.akamai.steamstatic.com
 DOMAIN,store.akamai.steamstatic.com
 DOMAIN,cdn.cloudflare.steamstatic.com
+DOMAIN,community.cloudflare.steamstatic.com
 DOMAIN,store.cloudflare.steamstatic.com
 
 # 内容：alien
