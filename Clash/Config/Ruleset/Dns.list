@@ -1,18 +1,38 @@
 # 内容：cf
 # 数量：1条
-DOMAIN,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-dns.com
 
 # 内容：opendns
-# 数量：1条
+# 数量：2条
 DOMAIN,doh.opendns.com
+DOMAIN,doh.familyshield.opendns.com
 
 # 内容：google
 # 数量：1条
 DOMAIN,dns.google
 
+# 内容：AdGuard
+# 数量：3条
+DOMAIN,dns.adguard.com
+DOMAIN,dns-family.adguard.com
+DOMAIN,dns-unfiltered.adguard.com
+
 # 内容：cleanbrowsing
-# 数量：1条
+# 数量：4条
 DOMAIN,doh.cleanbrowsing.org
+DOMAIN,family-filter-dns.cleanbrowsing.org
+DOMAIN,adult-filter-dns.cleanbrowsing.org
+DOMAIN,doh.family-filter-dns.cleanbrowsing.org
+
+# 内容：Quad9
+# 数量：3条
+DOMAIN,dns.quad9.net
+DOMAIN,dns10.quad9.net
+DOMAIN,dns11.quad9.net
+
+# 内容：switch
+# 数量：1条
+DOMAIN,dns.switch.ch
 
 # 内容：xhrzg2017
 # 数量：1条
