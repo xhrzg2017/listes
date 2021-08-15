@@ -1,8 +1,8 @@
 # 内容：通用
 # 数量：3条
-DOMAIN--KEYWORD,dns
-DOMAIN--KEYWORD,dot
-DOMAIN--KEYWORD,doh
+DOMAIN-KEYWORD,dns
+DOMAIN-KEYWORD,dot
+DOMAIN-KEYWORD,doh
 
 # 内容：cf
 # 数量：1条
