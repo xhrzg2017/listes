@@ -36,9 +36,7 @@ DOMAIN,dns11.quad9.net
 DOMAIN,dns.switch.ch
 
 # 内容：iQDNS
-# 数量：3条
-DOMAIN,a.passcloud.xyz
-DOMAIN,i.passcloud.xyz
+# 数量：1条
 DOMAIN,worldwide.passcloud.xyz
 
 # 内容：xhrzg2017
