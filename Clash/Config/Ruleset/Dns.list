@@ -42,3 +42,20 @@ DOMAIN,worldwide.passcloud.xyz
 # 内容：xhrzg2017
 # 数量：1条
 DOMAIN,doh.xhrzg2017.xyz
+
+# 内容：ipleak
+# 数量：1条
+DOMAIN,ipleak.net
+
+# 内容：browserleaks
+# 数量：2条
+DOMAIN,browserleaks.org
+DOMAIN,browserleaks.com
+
+# 内容：whoer
+# 数量：1条
+DOMAIN,whoer.net
+
+# 内容：whrq
+# 数量：1条
+DOMAIN,whrq.net
