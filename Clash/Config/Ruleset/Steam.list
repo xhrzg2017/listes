@@ -1,13 +1,30 @@
 # 内容：steam
-# 数量：6条
+# 数量：好多条
 DOMAIN,cdn.akamai.steamstatic.com
 DOMAIN,community.akamai.steamstatic.com
 DOMAIN,store.akamai.steamstatic.com
 DOMAIN,cdn.cloudflare.steamstatic.com
 DOMAIN,community.cloudflare.steamstatic.com
 DOMAIN,store.cloudflare.steamstatic.com
+
+#商店
 DOMAIN,steampowered.com
+
+#好友
 DOMAIN,steam-chat.com
+
+#创意工坊下载
+DOMAIN,steamusercontent-a.akamaihd.net
+
+#亚洲云同步
+DOMAIN,steamcloudlrsuswest.blob.core.windows.net
+DOMAIN,steamclouduseast.blob.core.windows.net
+DOMAIN,steamcloudhk.blob.core.windows.net
+DOMAIN,steamcloudsg.blob.core.windows.net
+DOMAIN,steamcloudseoul.blob.core.windows.net
+DOMAIN,steamcloudhk2.blob.core.windows.net
+DOMAIN,steamcloud-sgp.oss-accelerate.aliyuncs.com
+
 
 # 内容：alien
 DOMAIN-SUFFIX,alienwarearena.com
