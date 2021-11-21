@@ -1,12 +1,5 @@
 # 内容：steam
 # 数量：好多条
-DOMAIN,cdn.akamai.steamstatic.com
-DOMAIN,community.akamai.steamstatic.com
-DOMAIN,store.akamai.steamstatic.com
-DOMAIN,cdn.cloudflare.steamstatic.com
-DOMAIN,community.cloudflare.steamstatic.com
-DOMAIN,store.cloudflare.steamstatic.com
-
 #商店
 DOMAIN,steampowered.com
 
@@ -15,6 +8,11 @@ DOMAIN,steam-chat.com
 
 #创意工坊下载
 DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamgames.com
+DOMAIN,steamusercontent.com
+DOMAIN,steamcontent.com
+DOMAIN,steamstatic.com
+DOMAIN,akamaihd.net
 
 #亚洲云同步
 DOMAIN,steamcloudlrsuswest.blob.core.windows.net
