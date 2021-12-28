@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,public.dns.iij.jp
 # 内容：JP-tiar.app
 DOMAIN-SUFFIX,tiar.app
 DOMAIN-SUFFIX,tiarap.org
+
+# 内容：passcloud.xyz
+DOMAIN-SUFFIX,passcloud.xyz
