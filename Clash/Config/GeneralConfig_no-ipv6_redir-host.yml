@@ -119,11 +119,12 @@ dns:
   fake-ip-filter:
   nameserver:
     - 'tcp://h.iqiq.io:777'
-    - 'tcp://x.iqiq.io:777'
+    - 'tcp://c.iqiq.io:777'
+    - 'tls://c.passcloud.xyz' 
   fallback:
 #    - 'https://public.dns.iij.jp/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
-    - 'tls://c.passcloud.xyz'
+    - 'https://a.passcloud.xyz/cdn'
   fallback-filter:
     geoip: true
     geoip-code: CN
