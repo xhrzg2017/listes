@@ -177,7 +177,7 @@ dns:
     - 'stun.*.*'
   nameserver:
     - 'tcp://h.iqiq.io:777'
-    - 'tcp://c.iqiq.io:777'
+    - 'tcp://c.passcloud.xyz:777'
     - 'tls://c.passcloud.xyz' 
   fallback:
 #    - 'https://public.dns.iij.jp/dns-query'
