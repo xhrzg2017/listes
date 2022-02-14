@@ -68,7 +68,7 @@ hosts:
    'securelogin.arubanetworks.com': 10.253.1.28
    'ayxy.pheicloud.com': 10.253.1.11
    'openwrt-router.adminlogin-lan.com': 172.18.210.253
-   'api.dler.io': 172.67.203.47
+   'switch-1.adminlogin-lan.com': 172.18.210.201
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
   # set false If you don't want this behavior
@@ -118,7 +118,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
-  # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl
+    # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl
     # === LAN ===
     - '*.lan'
     # === Windows 10 Connnect Detection ===
@@ -176,14 +176,24 @@ dns:
     - 'stun.*.*.*'
     - 'stun.*.*'
   nameserver:
-    - 'tcp://h.iqiq.io:777'
-    - 'tcp://c.passcloud.xyz:777'
-    - 'tls://c.passcloud.xyz' 
+    - 'https://i.233py.com/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    
   fallback:
-#   - 'https://public.dns.iij.jp/dns-query'
-    - 'https://i.passcloud.xyz/dns-query'
-    - 'https://a.passcloud.xyz/cdn'
+    # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query'
+    - 'tls://c.passcloud.xyz'
+    
+    # -
+    #- 'https://public.dns.iij.jp/dns-query'
+    #- 'https://doh.opendns.com/dns-query'
+    #- 'https://doh.dns.sb/dns-query'
+    #- 'https://101.101.101.101/dns-query'
+    #- 'https://a.passcloud.xyz/hk'
+    #- 'https://1.0.0.1/dns-query'
+    #- 'https://azure.cloudflare-dns.com/dns-query'
+    #- 'https://dns.switch.ch/dns-query'
+    #- 'tls://8.8.4.4'
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -210,10 +220,40 @@ dns:
       # - '+.facebook.com'
       # - '+.twitter.com'
       # - '+.youtube.com'
+      # google cn
+      - '+.xn--ngstr-lra8j.com'
+      - 'www.gstatic.cn'
+      - '+.google.cn'
+      - '+.googleapis.cn'
+      - '+.gvt1.com'
+      # google 服务
+      - 'translate.googleapis.com'
+      - 'safebrowsing-cache.google.com'
+      - 'safebrowsing.googleapis.com'
+      - 'clientservices.googleapis.com'
+      # 微软网站      
+      - '+.bing.com'
+      - '+.linkedin.com'
+      - '+.msn.cn'
+      # apple tv      
+      - 'www.apple.com'
+      - 'tv.apple.com'
+      #- 'np-edge.itunes.apple.com'
+      #- 'play-edge.itunes.apple.com'
+      # sony playstation     
+      - '+.playstationnetwork.com'
+      - '+.sony.com'
+      - '+.sonyentertainmentnetwork.com'
+      - '+.playstation.com'
+      #- '+.playstation.net'
+      # App Store
+      - '+.mzstatic.com'
+      - 'itunes.apple.com'
+      - '+.itunes.apple.com'
+      - '+.phobos.apple.com'
+      - '+.aaplimg.com'
+      - 'apps.apple.com'
 #  Apple TV https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list
-# 太慢     - https://1.0.0.1/dns-query
-# https://azure.cloudflare-dns.com/dns-query
-#     - https://dns.switch.ch/dns-query
 #cfw tun mode配置
 #失效
 # 1. clash DNS 请求逻辑：
