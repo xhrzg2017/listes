@@ -180,9 +180,10 @@ dns:
     - 'tcp://c.passcloud.xyz:777'
     - 'tls://c.passcloud.xyz' 
   fallback:
-#    - 'https://public.dns.iij.jp/dns-query'
+#   - 'https://public.dns.iij.jp/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
     - 'https://a.passcloud.xyz/cdn'
+    - 'https://doh.xhrzg2017.xyz/dns-query'
   fallback-filter:
     geoip: true
     geoip-code: CN
