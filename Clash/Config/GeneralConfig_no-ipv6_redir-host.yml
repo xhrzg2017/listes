@@ -65,10 +65,13 @@ log-level: warning
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 hosts:
-   'securelogin.arubanetworks.com': 10.253.1.28
-   'ayxy.pheicloud.com': 10.253.1.11
-   'openwrt-router.adminlogin-lan.com': 172.18.210.253
-   'switch-1.adminlogin-lan.com': 172.18.210.201
+   'api.dler.io': 172.67.203.47
+   'api.wcc.best': 172.67.203.47
+   'subconverter.herokuapp.com': 54.159.116.102
+   'sub.id9.cc': 104.218.235.103
+   'sub.789.st': 146.56.166.182
+   
+   
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
   # set false If you don't want this behavior
