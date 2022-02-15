@@ -179,7 +179,7 @@ dns:
     - 'stun.*.*.*'
     - 'stun.*.*'
   nameserver:
-    - 'https://i.233py.com/dns-query'
+    - 'https://sdns.233py.com/dns-query'
     - 'https://dns.alidns.com/dns-query'
     
   fallback:
