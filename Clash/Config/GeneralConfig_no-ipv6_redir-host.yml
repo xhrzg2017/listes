@@ -67,9 +67,11 @@ log-level: warning
 hosts:
    'api.dler.io': 104.21.33.207
    'api.wcc.best': 104.21.33.207
+   'doh.xhrzg2017.xyz': 104.21.33.207
    'subconverter.herokuapp.com': 54.159.116.102
    'sub.id9.cc': 104.218.235.103
    'sub.789.st': 146.56.166.182
+
    
    
 #profile:
@@ -184,7 +186,7 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://doh.xhrzg2017.xyz/dns-query'
+    - 'tcp://doh.xhrzg2017.xyz:2333'
     - 'tls://c.passcloud.xyz'
     
     #- 'https://public.dns.iij.jp/dns-query'
