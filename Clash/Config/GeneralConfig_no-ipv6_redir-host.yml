@@ -180,14 +180,13 @@ dns:
     - 'stun.*.*'
   nameserver:
     - 'https://sdns.233py.com/dns-query'
-    - 'https://dns.alidns.com/dns-query'
+    - 'https://i.233py.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query'
     - 'tls://c.passcloud.xyz'
     
-    # -
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://doh.dns.sb/dns-query'
