@@ -186,7 +186,7 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://doh.xhrzg2017.xyz/dns-query'
+    - 'https://i.passcloud.xyz/dns-query'
     #- 'tls://c.passcloud.xyz'
     
     #- 'https://public.dns.iij.jp/dns-query'
