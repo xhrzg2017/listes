@@ -187,13 +187,12 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/github'
-    - 'tls://c.passcloud.xyz'
+    - 'https://cloudflare-dns.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://doh.dns.sb/dns-query'
     #- 'https://101.101.101.101/dns-query'
-    #- 'https://a.passcloud.xyz/hk'
     #- 'https://1.0.0.1/dns-query'
     #- 'https://azure.cloudflare-dns.com/dns-query'
     #- 'https://dns.switch.ch/dns-query'
