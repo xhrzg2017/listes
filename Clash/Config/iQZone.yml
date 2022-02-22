@@ -181,13 +181,13 @@ dns:
     - 'stun.*.*.*'
     - 'stun.*.*'
   nameserver:
-    - 'https://dns.alidns.com/dns-query'
+    - 'tls://c.passcloud.xyz'
     - 'https://i.233py.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'tls://c.passcloud.xyz'
+    - 'https://i.passcloud.xyz/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
