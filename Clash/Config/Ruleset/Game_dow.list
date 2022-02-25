@@ -1,5 +1,5 @@
 # 内容：epic
 
-DOMAIN,download.epicgames.com
-DOMAIN,download2.epicgames.com
+DOMAIN-SUFFIX,download.epicgames.com
+DOMAIN-SUFFIX,download2.epicgames.com
 DOMAIN-KEYWORD,epicgames-download
