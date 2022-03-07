@@ -17,4 +17,4 @@ DOMAIN-SUFFIX,tiar.app
 DOMAIN-SUFFIX,tiarap.org
 
 # 内容：passcloud.xyz
-DOMAIN-SUFFIX,passcloud.xyz
+DOMAIN-SUFFIX,passcloud.xyz,DIRECT
