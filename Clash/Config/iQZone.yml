@@ -182,13 +182,13 @@ dns:
     - 'stun.*.*'
   nameserver:
     - 'tls://c.passcloud.xyz'
-    - 'tcp://h.iqiq.io:777'
+    - 'https://a.passcloud.xyz/sz'
     
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'https://a.passcloud.xyz/hk'
-    - 'https://i.passcloud.xyz/dns-query'
+    - 'tcp://h.iqiq.io:777'
+    - 'tls://h.iqiq.io'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
