@@ -123,63 +123,15 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
-    # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl
-    # === LAN ===
-    - '*.lan'
-    # === Windows 10 Connnect Detection ===
-    - '*.ipv6.microsoft.com'
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - 'msftconnecttest.com'
-    - 'msftncsi.com'
-    # === NTP Service ===
-    - 'ntp.*.com'
-    - time-ios.apple.com
-    - time-macos.apple.com
-    - 'time.*.com'
-    - 'time.*.gov'
-    - '+.pool.ntp.org'
-    - '*.cloud.tencent.com'
-    - '*.pool.ntp.org'
-    - pool.ntp.org
-    ## === 国内网站 ===
-    - '*.163.com'
-    - '*.126.net'
-    - '*.taihe.com'
-    - '*.kugou.com'
-    - '*.joox.com'
-    - joox.com
-    - '*.*.*.*.qq.com'
-    - '*.*.*.qq.com'
-    - '*.*.qq.com'
-    - '*.qq.com'
-    - '*.*.*.*.*.cn'
-    - '*.*.*.*.cn'
-    - '*.*.*.cn'
-    - '*.*.cn'
-    - '*.cn'
-    # === Apple Software Update Service ===
-    - 'mesu.apple.com'
-    - 'swscan.apple.com'
-    # === Game Service ===
-    - "*.battle.net"
-    ## Microsoft Xbox
-    - 'speedtest.cros.wr.pvp.net'
-    - '*.*.xboxlive.com'
-    - 'xbox.*.*.microsoft.com'
-    - 'xbox.*.microsoft.com'
-    - 'xnotify.xboxlive.com'
-    ## Nintendo Switch
-    - '*.*.*.srv.nintendo.net'
-    - '+.srv.nintendo.net'
-    ## Sony PlayStation
-    - '*.*.stun.playstation.net'
-    ## STUN Server
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*'
-    - 'stun.*.*.*'
-    - 'stun.*.*'
+    - '+.lan'
+    - '+.cn'
+    - '+.baidu.com'
+    - '*.alipay.com'
+    - '*.alipayobjects.com'
+    - '+.msftnsci.com'
+    - '+.msftconnecttest.com'
+    - 'dl.google.com'
+    
   nameserver:
     - 'tls://c.passcloud.xyz'
     - 'https://a.passcloud.xyz/sz'
