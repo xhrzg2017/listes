@@ -134,13 +134,13 @@ dns:
     
   nameserver:
     - 'tls://c.passcloud.xyz'
-    - 'https://a.passcloud.xyz/sz'
+    - 'tls://https://dns.alidns.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'tcp://h.iqiq.io:777'
-    - 'tls://h.iqiq.io'
+    - 'https://a.passcloud.xyz/cdn'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
