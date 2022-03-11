@@ -134,7 +134,7 @@ dns:
     
   nameserver:
     - 'tls://c.passcloud.xyz'
-    - 'tls://https://dns.alidns.com/dns-query'
+    - 'https://dns.alidns.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
