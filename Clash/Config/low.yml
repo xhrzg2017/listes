@@ -138,7 +138,7 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://doh.xhrzg2017.xyz/dns-query/github'
+    - 'https://doh.xhrzg2017.xyz/dns-query/low'
     - 'https://cloudflare-dns.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
