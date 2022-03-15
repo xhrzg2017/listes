@@ -139,8 +139,8 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'tcp://h.iqiq.io:777'
-    - 'https://a.passcloud.xyz/cdn'
+    - 'https://1.0.0.1/dns-query'
+    - 'https://dns.twnic.tw/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
