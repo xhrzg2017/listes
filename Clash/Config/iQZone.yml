@@ -137,21 +137,21 @@ dns:
     - '+.msftconnecttest.com'
     # === NTP Service ===
     - 'ntp.*.com'
-    - time-ios.apple.com
-    - time-macos.apple.com
+    - 'time-ios.apple.com'
+    - 'time-macos.apple.com'
     - 'time.*.com'
     - 'time.*.gov'
     - '+.pool.ntp.org'
     - '*.cloud.tencent.com'
     - '*.pool.ntp.org'
-    - pool.ntp.org
+    - 'pool.ntp.org'
     ## === 国内网站 ===
     - '*.163.com'
     - '*.126.net'
     - '*.taihe.com'
     - '*.kugou.com'
     - '*.joox.com'
-    - joox.com
+    - 'joox.com'
     - '*.*.*.*.qq.com'
     - '*.*.*.qq.com'
     - '*.*.qq.com'
@@ -188,7 +188,7 @@ dns:
     - 'stun.*.*.*'
     - 'stun.*.*'
     ## google
-    - dl.google.com
+    - 'dl.google.com'
     
   nameserver:
     - 'https://doh.pub/dns-query'
