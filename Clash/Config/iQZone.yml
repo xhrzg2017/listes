@@ -188,7 +188,7 @@ dns:
     - 'stun.*.*.*'
     - 'stun.*.*'
     ## google
-    - 'dl.google.com'
+    - dl.google.com
     
   nameserver:
     - 'https://doh.pub/dns-query'
