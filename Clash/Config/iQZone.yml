@@ -133,6 +133,8 @@ dns:
     - '*.msftncsi.com'
     - 'msftconnecttest.com'
     - 'msftncsi.com'
+    - '+.msftnsci.com'
+    - '+.msftconnecttest.com'
     # === NTP Service ===
     - 'ntp.*.com'
     - time-ios.apple.com
@@ -159,6 +161,10 @@ dns:
     - '*.*.*.cn'
     - '*.*.cn'
     - '*.cn'
+    - '+.cn'
+    - '+.baidu.com'
+    - '*.alipay.com'
+    - '*.alipayobjects.com'
     # === Apple Software Update Service ===
     - 'mesu.apple.com'
     - 'swscan.apple.com'
@@ -181,6 +187,8 @@ dns:
     - '+.stun.*.*'
     - 'stun.*.*.*'
     - 'stun.*.*'
+    ## google
+    - 'dl.google.com'
     
   nameserver:
     - 'https://doh.pub/dns-query'
