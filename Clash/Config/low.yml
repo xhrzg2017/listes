@@ -65,12 +65,12 @@ log-level: warning
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 hosts:
-   'api.dler.io': 104.21.33.207
-   'api.wcc.best': 104.21.33.207
-   'doh.xhrzg2017.xyz': 152.70.242.111
-   'subconverter.herokuapp.com': 54.159.116.102
+   'api.dler.io': 172.67.203.47
+   'api.wcc.best': 172.67.140.28
+   'sub.789.st': 172.67.193.176
+   'doh.xhrzg2017.xyz': 146.56.181.43
+   'subconverter.herokuapp.com': 54.165.58.209
    'sub.id9.cc': 104.218.235.103
-   'sub.789.st': 146.56.166.182
 
    
    
