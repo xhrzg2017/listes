@@ -124,25 +124,79 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
-    - '+.lan'
-    - '+.cn'
-    - '+.baidu.com'
-    - '*.alipay.com'
-    - '*.alipayobjects.com'
-    - '+.msftnsci.com'
-    - '+.msftconnecttest.com'
-    - 'dl.google.com'
+    # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl
+    # === LAN ===
+    - '*.lan'
+    # === Windows 10 Connnect Detection ===
+    - '*.ipv6.microsoft.com'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'msftconnecttest.com'
+    - 'msftncsi.com'
+    # === NTP Service ===
+    - 'ntp.*.com'
+    - time-ios.apple.com
+    - time-macos.apple.com
+    - 'time.*.com'
+    - 'time.*.gov'
+    - '+.pool.ntp.org'
+    - '*.cloud.tencent.com'
+    - '*.pool.ntp.org'
+    - pool.ntp.org
+    ## === 国内网站 ===
+    - '*.163.com'
+    - '*.126.net'
+    - '*.taihe.com'
+    - '*.kugou.com'
+    - '*.joox.com'
+    - joox.com
+    - '*.*.*.*.qq.com'
+    - '*.*.*.qq.com'
+    - '*.*.qq.com'
+    - '*.qq.com'
+    - '*.*.*.*.*.cn'
+    - '*.*.*.*.cn'
+    - '*.*.*.cn'
+    - '*.*.cn'
+    - '*.cn'
+    # === Apple Software Update Service ===
+    - 'mesu.apple.com'
+    - 'swscan.apple.com'
+    # === Game Service ===
+    - "*.battle.net"
+    ## Microsoft Xbox
+    - 'speedtest.cros.wr.pvp.net'
+    - '*.*.xboxlive.com'
+    - 'xbox.*.*.microsoft.com'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    ## Nintendo Switch
+    - '*.*.*.srv.nintendo.net'
+    - '+.srv.nintendo.net'
+    ## Sony PlayStation
+    - '*.*.stun.playstation.net'
+    ## STUN Server
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*'
+    - 'stun.*.*.*'
+    - 'stun.*.*'
     
   nameserver:
-    - 'tcp://c.passcloud.xyz:777'
+    - 'https://doh.pub/dns-query'
     - 'https://i.233py.com/dns-query'
-    - 'https://dns.alidns.com/dns-query'
-    
+    - 'https://v.233py.com/dns-query'
+    - 'https://dns.233py.com/dns-query'
+    - 'tls://x.passcloud.xyz:853'
+    - 'tls://c.passcloud.xyz:853'
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'https://a.passcloud.xyz/hk'
-    - 'https://dns.233py.com/dns-query'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://1.0.0.1/dns-query'
+    - 'https://45.11.45.11/dns-query'
+    - 'https://doh.dns.sb/dns-query'
+    - 'https://101.101.101.101/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
