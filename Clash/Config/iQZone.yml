@@ -134,7 +134,7 @@ dns:
     - 'dl.google.com'
     
   nameserver:
-    - 'tls://c.passcloud.xyz'
+    - 'tcp://c.passcloud.xyz:777'
     - 'https://i.233py.com/dns-query'
     - 'https://dns.alidns.com/dns-query'
     
@@ -142,7 +142,7 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'https://a.passcloud.xyz/hk'
-    - 'https://doh.dns.sb/dns-query'
+    - 'https://dns.233py.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
