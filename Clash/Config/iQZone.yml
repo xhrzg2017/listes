@@ -135,8 +135,9 @@ dns:
     
   nameserver:
     - 'https://dns.alidns.com/dns-query' 
-    - 'https://doh.pub/dns-query' 
-    - 'https://doh.360.cn/dns-query'
+    - 'https://223.6.6.6/dns-query'
+    - 'tls://c.passcloud.xyz:853' 
+
 
   fallback:
     # -国内可用的 doh、dot 列表
