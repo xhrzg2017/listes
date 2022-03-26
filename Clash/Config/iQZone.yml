@@ -134,7 +134,6 @@ dns:
     - 'dl.google.com'
     
   nameserver:
-    - 'https://doh.pub/dns-query'
     - 'https://i.233py.com/dns-query'
     - 'https://v.233py.com/dns-query'
     - 'https://dns.233py.com/dns-query'
@@ -143,9 +142,7 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'https://public.dns.iij.jp/dns-query'
-    - 'https://dns.google/dns-query'
-    - 'https://1.0.0.1/dns-query'
+    - 'tcp://h.iqiq.io:777'
     - 'https://45.11.45.11/dns-query'
     - 'https://doh.dns.sb/dns-query'
     - 'https://101.101.101.101/dns-query'
