@@ -143,9 +143,10 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'tcp://h.iqiq.io:777'
+    - 'https://1.0.0.1/dns-query'
+    - 'tls://8.8.4.4:853'
     - 'https://45.11.45.11/dns-query'
     - 'https://doh.dns.sb/dns-query'
-    - 'https://101.101.101.101/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
