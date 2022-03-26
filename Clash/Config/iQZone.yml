@@ -135,16 +135,16 @@ dns:
     
   nameserver:
     - 'https://i.233py.com/dns-query'
-    - 'https://v.233py.com/dns-query'
-    - 'https://dns.233py.com/dns-query'
+    - 'https://dns.alidns.com/dns-query' 
+    - 'https://doh.pub/dns-query' 
     - 'tls://x.passcloud.xyz:853'
     - 'tls://c.passcloud.xyz:853'
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'tcp://h.iqiq.io:777'
-    - 'https://1.0.0.1/dns-query'
-    - 'tls://8.8.4.4:853'
+    - 'https://dns.233py.com/dns-query'
+    - 'https://v.233py.com/dns-query'
     - 'https://45.11.45.11/dns-query'
     - 'https://doh.dns.sb/dns-query'
     
