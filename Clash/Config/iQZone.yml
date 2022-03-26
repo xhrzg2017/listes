@@ -141,7 +141,7 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'https://i.passcloud.xyz/dns-query'
+    - 'https://a.passcloud.xyz/hk'
     - 'https://1.0.0.1/dns-query'
     - 'https://i.233py.com/dns-query'
     
