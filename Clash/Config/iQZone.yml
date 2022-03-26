@@ -141,7 +141,6 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'https://public.dns.iij.jp/dns-query'
     - 'https://45.11.45.11/dns-query'
     - 'https://doh.dns.sb/dns-query'
     
