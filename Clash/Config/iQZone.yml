@@ -143,7 +143,7 @@ dns:
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'https://i.passcloud.xyz/dns-query'
     - 'https://45.11.45.11/dns-query'
-    - 'https://doh.dns.sb/dns-query'
+    - 'https://dns.233py.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
