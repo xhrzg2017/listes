@@ -137,6 +137,7 @@ dns:
     - 'tls:///dns.alidns.com' 
     - 'tls://c.passcloud.xyz:853' 
     - 'https://doh.pub/dns-query'
+    - 'tcp://h.iqiq.io:777'
 
   fallback:
     # -国内可用的 doh、dot 列表
@@ -144,6 +145,8 @@ dns:
     - 'https://a.passcloud.xyz/hk'
     - 'https://1.0.0.1/dns-query'
     - 'https://i.233py.com/dns-query'
+    - 'https://45.11.45.11/dns-query'
+    - 'https://dns.adguard.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
