@@ -71,9 +71,8 @@ hosts:
    'doh.xhrzg2017.xyz': 146.56.181.43
    'subconverter.herokuapp.com': 54.165.58.209
    'sub.id9.cc': 104.218.235.103
-
-
-   
+   'ftp.xhrzg2017.xyz': 172.16.0.5
+   'www.xhrzg2017.xyz': 172.16.0.4
    
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
