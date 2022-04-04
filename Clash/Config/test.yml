@@ -124,16 +124,9 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  fake-ip-filter:
-    - '+.lan'
-    - '+.cn'
-    - '+.baidu.com'
-    - '*.alipay.com'
-    - '*.alipayobjects.com'
-    - '+.msftnsci.com'
-    - '+.msftconnecttest.com'
-    - 'dl.google.com'
+  fake-ip-filter:  
     # === LAN ===
+    - '+.lan'
     - '*.lan'
     # === Windows 10 Connnect Detection ===
     - '*.ipv6.microsoft.com'
@@ -141,6 +134,8 @@ dns:
     - '*.msftncsi.com'
     - 'msftconnecttest.com'
     - 'msftncsi.com'
+    - '+.msftnsci.com'
+    - '+.msftconnecttest.com'
     # === NTP Service ===
     - 'ntp.*.com'
     - time-ios.apple.com
@@ -151,7 +146,12 @@ dns:
     - '*.cloud.tencent.com'
     - '*.pool.ntp.org'
     - pool.ntp.org
+    # === Google Service ===
+    - 'dl.google.com'
     ## === 国内网站 ===
+    - '+.baidu.com'
+    - '*.alipay.com'
+    - '*.alipayobjects.com'
     - '*.163.com'
     - '*.126.net'
     - '*.taihe.com'
@@ -167,6 +167,7 @@ dns:
     - '*.*.*.cn'
     - '*.*.cn'
     - '*.cn'
+    - '+.cn'
     # === Apple Software Update Service ===
     - 'mesu.apple.com'
     - 'swscan.apple.com'
