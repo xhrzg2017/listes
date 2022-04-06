@@ -75,6 +75,8 @@ hosts:
    'uuu.glass': 45.88.195.157
    'ftp.xhrzg2017.xyz': 172.16.0.5
    'www.xhrzg2017.xyz': 172.16.0.4
+
+   
    
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
@@ -124,7 +126,7 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  fake-ip-filter:  
+  fake-ip-filter:
     # === LAN ===
     - '+.lan'
     - '*.lan'
@@ -192,22 +194,19 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'https://i.233py.com/dns-query'
-    - 'https://dns.pub/dns-query'
-    - 'tls://c.passcloud.xyz:853'
-    - 'tcp://h.iqiq.io:777'
-
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://doh.pub/dns-query'
+    
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'tls://h.iqiq.io:853'
-    - 'https://dns.233py.com/dns-query'
+    - 'https://doh.xhrzg2017.xyz/dns-query/low'
+    - 'https://i.233py.com/dns-query'
+    - 'https://1.0.0.1/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://doh.dns.sb/dns-query'
     #- 'https://101.101.101.101/dns-query'
-    #- 'https://a.passcloud.xyz/hk'
     #- 'https://1.0.0.1/dns-query'
     #- 'https://azure.cloudflare-dns.com/dns-query'
     #- 'https://dns.switch.ch/dns-query'
