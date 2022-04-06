@@ -194,13 +194,13 @@ dns:
   nameserver:
     - 'https://i.233py.com/dns-query'
     - 'https://dns.pub/dns-query'
-    - 'tls://c.passcloud.xyz'
+    - 'tls://c.passcloud.xyz:853'
     - 'tcp://h.iqiq.io:777'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'tls://h.iqiq.io'
+    - 'tls://h.iqiq.io:853'
     - 'https://1.0.0.1/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
