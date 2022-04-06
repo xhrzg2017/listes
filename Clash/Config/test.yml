@@ -199,8 +199,8 @@ dns:
     - 'tls://c.passcloud.xyz'
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://doh.xhrzg2017.xyz/dns-query/low'
-    - 'tcp://b.iqiq.io:777'
+    - 'https://doh.xhrzg2017.xyz/dns-query/IQZone'
+    - 'tcp://b.iqiq.io'
     - 'https://1.0.0.1/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
