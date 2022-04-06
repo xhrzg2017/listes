@@ -201,7 +201,7 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'tls://h.iqiq.io:853'
-    - 'https://dns.233py.com/dns-query'
+    - 'https://doh.opendns.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
