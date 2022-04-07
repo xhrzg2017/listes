@@ -203,8 +203,8 @@ dns:
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
     - 'https://worldwide.passcloud.xyz/dns-query'
     - 'https://dns.233py.com/dns-query'
-    - 'https://208.67.222.222/dns-query'    
-    - 'https://1.0.0.1/dns-query'
+    - 'tcp://208.67.222.222:443'    
+    - 'https://azure.cloudflare-dns.com/dns-query'
     - 'https://45.11.45.11/dns-query'
 
     
