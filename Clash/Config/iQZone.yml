@@ -202,7 +202,7 @@ dns:
     - 'https://a.passcloud.xyz/cdn'
     - 'https://worldwide.passcloud.xyz/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
-    - 'https://dns.google/dns-query'
+    - 'https://45.11.45.11/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
