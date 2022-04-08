@@ -195,6 +195,7 @@ dns:
     - 'https://dns.alidns.com/dns-query' 
     - 'tls://h.iqiq.io'
     - 'tls://c.passcloud.xyz'
+    - 'tls://x.passcloud.xyz'
 
   fallback:
     # -国内可用的 doh、dot 列表
@@ -202,8 +203,7 @@ dns:
     - 'https://a.passcloud.xyz/cdn'
     - 'https://worldwide.passcloud.xyz/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
-    - 'https://45.11.45.11/dns-query'
-
+    
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
