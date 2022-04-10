@@ -193,7 +193,7 @@ dns:
     
   nameserver:
     - 'https://dns.alidns.com/dns-query' 
-    - 'tls://h.iqiq.io'
+    - 'tcp://h.iqiq.io:777'
     - 'tls://c.passcloud.xyz'
     - 'tls://x.passcloud.xyz'
 
@@ -203,6 +203,7 @@ dns:
     - 'https://a.passcloud.xyz/cdn'
     - 'https://worldwide.passcloud.xyz/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
+    - 'tls://h.iqiq.io'
     
     
     #- 'https://public.dns.iij.jp/dns-query'
