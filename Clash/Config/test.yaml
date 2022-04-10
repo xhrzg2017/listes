@@ -193,16 +193,17 @@ dns:
     
   nameserver:
     - 'https://dns.alidns.com/dns-query' 
-    - 'tls://h.iqiq.io'
+    - 'tcp://h.iqiq.io:777'
     - 'tls://c.passcloud.xyz'
     - 'tls://x.passcloud.xyz'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/dns-query/iqzone'
-    - 'https://a.passcloud.xyz/cdn'
+    - 'https://a.passcloud.xyz/hk'
     - 'https://worldwide.passcloud.xyz/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
+    - 'tls://h.iqiq.io'
     
     
     #- 'https://public.dns.iij.jp/dns-query'
