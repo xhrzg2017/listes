@@ -190,6 +190,7 @@ dns:
     - '+.stun.*.*'
     - 'stun.*.*.*'
     - 'stun.*.*'
+    
   nameserver:
     - 'https://dns.alidns.com/dns-query' 
     - 'tcp://h.iqiq.io:777'
@@ -308,7 +309,8 @@ dns:
 #    proxies:
 #      - Shadowsocks
 #rules:
-#  - 'MATCH,DIRECT
+#  - 'MATCH,DIRECT'
+
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 300
