@@ -120,6 +120,9 @@ clash-for-android:
 dns:
   enable: true
   listen: 0.0.0.0:53
+  default-nameserver:
+    - 1.0.0.1
+    - 156.154.70.1
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -309,12 +312,7 @@ dns:
 #    proxies:
 #      - Shadowsocks
 #rules:
-#  - 'MATCH,DIRECT'
-
-default-nameserver:
-  - 1.0.0.1
-  - 156.154.70.1
-
+#  - 'MATCH,DIRECT
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 300
