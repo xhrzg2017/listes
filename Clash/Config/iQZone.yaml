@@ -311,6 +311,10 @@ dns:
 #rules:
 #  - 'MATCH,DIRECT'
 
+default-nameserver:
+  - 1.0.0.1
+  - 156.154.70.1
+
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 300
