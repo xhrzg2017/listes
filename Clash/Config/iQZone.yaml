@@ -190,9 +190,6 @@ dns:
     - '+.stun.*.*'
     - 'stun.*.*.*'
     - 'stun.*.*'
-  default-nameserver:
-    - 1.0.0.1
-    - 156.154.70.1 
   nameserver:
     - 'https://dns.alidns.com/dns-query' 
     - 'tcp://h.iqiq.io:777'
