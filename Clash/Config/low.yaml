@@ -309,7 +309,7 @@ dns:
 
 # Clash for Windows
 # Proxies module latency test settings
-cfw-latency-timeout: 300
+cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
 
 # 混合配置（mixin）
