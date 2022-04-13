@@ -192,7 +192,6 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'https://dns.alidns.com/dns-query' 
     - 'tcp://h.iqiq.io:777'
     - 'tls://c.passcloud.xyz'
     - 'tls://x.passcloud.xyz'
@@ -202,7 +201,6 @@ dns:
     - 'https://doh.xhrzg2017.xyz/iqzone'
     - 'https://worldwide.passcloud.xyz/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
-    - 'tls://h.iqiq.io'
     
     
     #- 'https://public.dns.iij.jp/dns-query'
