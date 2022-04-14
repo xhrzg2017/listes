@@ -204,7 +204,7 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/iqzone'
-    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://hk-hkg.doh.sb/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
     - 'tls://c.passcloud.xyz'
     
