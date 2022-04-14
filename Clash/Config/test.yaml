@@ -121,6 +121,11 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   ipv6: false
+  
+  default-nameserver:          
+    - 114.114.114.114
+    - 8.8.8.8
+  
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
@@ -192,15 +197,16 @@ dns:
     - 'stun.*.*'
     
   nameserver:
+    - 'https://dns.alidns.com/dns-query'
+    - 'tls://h.iqiq.io'
     - 'tcp://h.iqiq.io:777'
-    - 'tls://c.passcloud.xyz'
-    - 'tls://x.passcloud.xyz'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/iqzone'
-    - 'https://worldwide.passcloud.xyz/dns-query'
+    - 'https://hk-hkg.doh.sb/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
+    - 'tls://c.passcloud.xyz'
     
     
     #- 'https://public.dns.iij.jp/dns-query'
