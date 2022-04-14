@@ -121,6 +121,11 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   ipv6: false
+  
+  default-nameserver:          
+    - 114.114.114.114
+    - 8.8.8.8
+  
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
