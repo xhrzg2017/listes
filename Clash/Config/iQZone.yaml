@@ -198,8 +198,9 @@ dns:
     
   nameserver:
     - 'https://dns.alidns.com/dns-query'
-    - 'tls://h.iqiq.io'
-    - 'tcp://h.iqiq.io:777'
+    - 'https://i.233py.com/dns-query'
+    - 'https://120.53.53.53/dns-query'
+    
 
   fallback:
     # -国内可用的 doh、dot 列表
