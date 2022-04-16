@@ -121,10 +121,6 @@ dns:
   listen: 0.0.0.0:53
   ipv6: false
   
-  default-nameserver:          
-    - 114.114.114.114
-    - 8.8.8.8
-  
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
@@ -194,16 +190,15 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'https://i.233py.com/dns-query'
-    - 'https://v.233py.com/dns-query'
-    - 'tls://c.passcloud.xyz'
+  - 'https://120.53.53.53/dns-query'
+  - 'https://223.5.5.5/dns-query'
+
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/iqzone'
-    - 'https://sdns.233py.com/dns-query'
     - 'https://i.passcloud.xyz/dns-query'
-    - 'tls://h.iqiq.io'
-    
+    - 'tls://8.8.4.4'
+    - 'https://1.0.0.1/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
