@@ -192,18 +192,15 @@ dns:
   nameserver:
   - 'https://doh.pub/dns-query'
   - 'https://dns.alidns.com/dns-query'
-  - '114.114.114.114'
-  - '119.29.29.29'
+  - 'tcp://h.iqiq.io:777'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/iqzone'
-    - 'tls://i.passcloud.xyz:5432'
-    - 'tls://8.8.4.4'
-    - 'tls://dns.google'
+    - 'https://a.passcloud.xyz/cdn'
     - 'https://dns.google/dns-query'
-    - 'tls://1.0.0.1'
-    - 'https://dns.cloudflare.com/dns-query'
+    - 'https://doh.dns.sb/dns-query'
+    - 'https://rubyfish.cn/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
