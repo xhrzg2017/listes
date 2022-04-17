@@ -190,15 +190,21 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - 'https://120.53.53.53/dns-query'
-  - 'https://223.5.5.5/dns-query'
+  - 'https://doh.pub/dns-query'
+  - 'https://dns.alidns.com/dns-query'
+  - '114.114.114.114'
+  - '119.29.29.29'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/iqzone'
-    - 'tls://a.passcloud.xyz:5432'
+    - 'tls://i.passcloud.xyz:5432'
     - 'tls://8.8.4.4'
+    - 'tls://dns.google'
+    - 'https://dns.google/dns-query'
     - 'tls://1.0.0.1'
+    - 'https://dns.cloudflare.com/dns-query'
+
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
