@@ -192,18 +192,19 @@ dns:
   nameserver:
   - 'https://doh.pub/dns-query'
   - 'https://dns.alidns.com/dns-query'
+  - 'tls://c.passcloud.xyz'
   - '114.114.114.114'
   - '119.29.29.29'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://doh.xhrzg2017.xyz/iqzone'
-    - 'tls://i.passcloud.xyz:5432'
+    - 'https://a.passcloud.xyz/dns-query'
     - 'tls://8.8.4.4'
     - 'tls://dns.google'
     - 'https://dns.google/dns-query'
     - 'tls://1.0.0.1'
-    - 'https://dns.cloudflare.com/dns-query'
+    - 'https://mozilla.cloudflare-dns.com/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
