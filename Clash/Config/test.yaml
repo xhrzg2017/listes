@@ -192,6 +192,7 @@ dns:
   nameserver:
   - 'https://doh.pub/dns-query'
   - 'https://dns.alidns.com/dns-query'
+  - 'quic://c.passcloud.xyz'
   - 'tcp://h.iqiq.io:777'
 
   fallback:
@@ -200,7 +201,6 @@ dns:
     - 'https://a.passcloud.xyz/cdn'
     - 'https://dns.google/dns-query'
     - 'https://doh.dns.sb/dns-query'
-    - 'https://rubyfish.cn/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
@@ -311,7 +311,7 @@ dns:
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 3000
-cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-latency-url: http://edge.microsoft.com/captiveportal/generate_204
 
 # 混合配置（mixin）
 # 支持向所有配置文件中注入公共属性设置
