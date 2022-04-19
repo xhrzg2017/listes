@@ -192,7 +192,6 @@ dns:
   nameserver:
   - 'https://doh.pub/dns-query'
   - 'https://dns.alidns.com/dns-query'
-  - 'quic://c.passcloud.xyz'
   - 'tcp://h.iqiq.io:777'
 
   fallback:
