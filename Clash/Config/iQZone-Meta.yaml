@@ -192,7 +192,7 @@ dns:
   nameserver:
   - 'https://doh.pub/dns-query'
   - 'https://dns.alidns.com/dns-query'
-  - 'quic://c.passcloud.xyz'
+  - 'quic://c.passcloud.xyz:784'
   - 'tcp://h.iqiq.io:777'
 
   fallback:
@@ -310,7 +310,7 @@ dns:
 
 # Clash for Windows
 # Proxies module latency test settings
-cfw-latency-timeout: 3000
+cfw-latency-timeout: 300
 cfw-latency-url: http://edge.microsoft.com/captiveportal/generate_204
 
 # 混合配置（mixin）
