@@ -195,7 +195,7 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://doh.xhrzg2017.xyz/low'
+    - 'https://kr.xhrzg2017.xyz/low'
     - 'https://dns.google/dns-query'
     - 'https://doh.dns.sb/dns-query'
     - 'https://rubyfish.cn/dns-query'
