@@ -198,8 +198,8 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'https://a.passcloud.xyz/cdn'
-    - 'https://dns.google/dns-query'
-    - 'https://doh.dns.sb/dns-query'
+    - 'https://dns.rubyfish.cn/dns-query'
+    - 'https://hk-hkg.doh.sb/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
