@@ -199,7 +199,7 @@ dns:
     - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'https://a.passcloud.xyz/cdn'
     - 'https://dns.rubyfish.cn/dns-query'
-    - 'https://hk-hkg.doh.sb/dns-query'
+    - 'https://dns.google/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
