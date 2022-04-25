@@ -191,7 +191,7 @@ dns:
     
   nameserver:
   - 'https://doh.pub/dns-query'
-  - 'https://dns.alidns.com/dns-query'
+  - 'https://v.233py.com/dns-query'
   - 'tcp://h.iqiq.io:777'
   - 'tls://c.passcloud.xyz'
 
