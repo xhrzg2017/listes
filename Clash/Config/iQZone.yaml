@@ -193,6 +193,7 @@ dns:
   - 'https://doh.pub/dns-query'
   - 'https://dns.alidns.com/dns-query'
   - 'tcp://h.iqiq.io:777'
+  - 'tls://c.passcloud.xyz'
 
   fallback:
     # -国内可用的 doh、dot 列表
