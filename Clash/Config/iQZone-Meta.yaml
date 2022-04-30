@@ -190,15 +190,13 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - 'https://doh.pub/dns-query'
-  - 'https://dns.alidns.com/dns-query'
   - 'quic://c.passcloud.xyz:784'
-  - 'tcp://h.iqiq.io:777'
+  - 'quic://h.iqiq.io:784'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone'
-    - 'https://a.passcloud.xyz/cdn'
+    - 'quic://a.passcloud.xyz:784'
     - 'https://dns.google/dns-query'
     - 'https://doh.dns.sb/dns-query'
 
