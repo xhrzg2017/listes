@@ -191,15 +191,15 @@ dns:
     
   nameserver:
   - 'quic://c.passcloud.xyz:784'
+  - 'tls://c.passcloud.xyz:853'
   - 'quic://h.iqiq.io:784'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'quic://a.passcloud.xyz:784'
-    - 'https://dns.google/dns-query'
-    - 'https://doh.dns.sb/dns-query'
-
+    - 'quic://i.passcloud.xyz:784'
+    - 'https://i.passcloud.xyz/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
