@@ -191,7 +191,7 @@ dns:
     
   nameserver:
     - 'quic://c.passcloud.xyz:784'
-    = 'quic://h.iqiq.io:784'
+    - 'quic://h.iqiq.io:784'
 
   fallback:
     # -国内可用的 doh、dot 列表
