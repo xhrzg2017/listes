@@ -196,8 +196,8 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone#🇭🇰 港澳节点'
-    - 'https://cloudflare-dns.com/dns-query#🇭🇰 港澳节点'
-    - 'https://dns.google/dns-query#🇭🇰 港澳节点'
+    - 'quic://i.passcloud.xyz:784#🇭🇰 港澳节点'
+    - 'quic://a.passcloud.xyz:784#🇭🇰 港澳节点'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
