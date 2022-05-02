@@ -190,12 +190,13 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'quic://c.passcloud.xyz:784'
+    - 'https://doh.pub/dns-query'
     - 'https://dns.alidns.com/dns-query'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone#🇭🇰 港澳节点'
+    - 'quic://c.passcloud.xyz:784#🇭🇰 港澳节点'
     - 'https://cloudflare-dns.com/dns-query#🇭🇰 港澳节点'
     - 'https://dns.google/dns-query#🇭🇰 港澳节点'
     
