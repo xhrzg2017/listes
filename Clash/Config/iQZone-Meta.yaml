@@ -197,7 +197,7 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone#🧐 两网推荐'
     - 'https://8.8.4.4/dns-query#🧐 两网推荐'
-    - 'tls://8.8.4.4#🧐 两网推荐'
+    - 'https://dns.twnic.tw/dns-query#🧐 两网推荐'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
