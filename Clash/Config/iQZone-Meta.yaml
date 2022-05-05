@@ -121,7 +121,10 @@ dns:
   listen: 0.0.0.0:53
   ipv6: false
   
-  enhanced-mode: fake-ip
+  default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
+    - 114.114.114.114
+    - 8.8.8.8
+  enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:  
@@ -192,12 +195,12 @@ dns:
   nameserver:
     - 'quic://c.passcloud.xyz:784'
     - 'https://dns.alidns.com/dns-query'
+    - 'https://kr.xhrzg2017.xyz/iqzone'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://kr.xhrzg2017.xyz/iqzone'
-    - 'https://a.passcloud.xyz/cdn'
-    - 'https://v.233py.com/dns-query'
+    - 'https://dns.google/dns-query'
+    - 'https://azure.cloudflare-dns.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
