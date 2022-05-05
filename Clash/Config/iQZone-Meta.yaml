@@ -195,7 +195,7 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
+    - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'https://a.passcloud.xyz/cdn'
     - 'https://v.233py.com/dns-query'
     
