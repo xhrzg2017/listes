@@ -196,8 +196,8 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
-    - 'https://a.passcloud.xyz/cdn#✅ 节点选择'
-    - 'https://v.233py.com/dns-query#✅ 节点选择'
+    - 'https://a.passcloud.xyz/cdn'
+    - 'https://v.233py.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
