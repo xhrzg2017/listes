@@ -193,17 +193,15 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - '114.114.114.114'
-    - '119.29.29.29'
-    - '223.5.5.5'
     - 'quic://c.passcloud.xyz:784'
+    - 'https://rubyfish.cn/dns-query'
+    - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://8.8.4.4/dns-query#✅ 节点选择'
-    - 'https://1.0.0.1/dns-query#✅ 节点选择'
-    - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
-    - 'https://rubyfish.cn/dns-query'
+    - 'tls://dns.8.8.4.4:853#✅ 节点选择'
+    - 'tls://dns.google:853#✅ 节点选择'
+    
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
