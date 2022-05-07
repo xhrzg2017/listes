@@ -203,7 +203,7 @@ dns:
     - 'https://1.0.0.1/dns-query#✅ 节点选择'
     - 'https://8.8.4.4/dns-query#✅ 节点选择'
     - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
-    - 'https://i.233py.com/dns-query'
+    - 'https://i.233py.com/dns-query#✅ 节点选择'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
