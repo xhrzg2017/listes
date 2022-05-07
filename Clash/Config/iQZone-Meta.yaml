@@ -200,8 +200,8 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'tls://8.8.4.4:853#✅ 节点选择'
-    - 'tls://1.1.1.1:853#✅ 节点选择'
+    - 'https://8.8.4.4/dns-query#✅ 节点选择'
+    - 'https://1.0.0.1/dns-query#✅ 节点选择'
     - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
     - 'https://rubyfish.cn/dns-query'
     
