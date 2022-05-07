@@ -199,7 +199,7 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'https://8.8.4.4/dns-query'
-    - 'https://doh.opendns.com/dns-query'
+    - 'https://rubyfish.cn/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
