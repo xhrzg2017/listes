@@ -206,7 +206,7 @@ dns:
     - 'tcp://1.1.1.1:53#✅ 节点选择'
     - 'tcp://208.67.222.222:443#✅ 节点选择' 
     - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
-    - 'https://dns.rubyfish.cn/dns-query'
+    - 'https://i.233py.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
