@@ -198,7 +198,6 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'https://a.passcloud.xyz/cdn'
     - 'https://dns.rubyfish.cn/dns-query'
     - 'https://hk-hkg.doh.sb/dns-query'
