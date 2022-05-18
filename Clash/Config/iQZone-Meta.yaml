@@ -194,7 +194,7 @@ dns:
     
   nameserver:
     - 'quic://c.passcloud.xyz:784'
-    - '119.29.29.29'
+    - '123.125.81.6'
     - '114.114.114.114'
     
 
@@ -202,7 +202,6 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://1.0.0.1/dns-query#✅ 节点选择'
     - 'https://8.8.4.4/dns-query#✅ 节点选择'
-    - 'https://kr.xhrzg2017.xyz/iqzone#✅ 节点选择'
     - 'https://i.233py.com/dns-query#✅ 节点选择'
     
     #- 'https://public.dns.iij.jp/dns-query'
