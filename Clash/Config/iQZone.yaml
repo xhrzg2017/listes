@@ -192,13 +192,12 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - '119.29.29.29'
+  - '123.125.81.6'
   - '114.114.114.114'
   - 'tls://c.passcloud.xyz'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://kr.xhrzg2017.xyz/iqzone'
     - 'https://1.0.0.1/dns-query'
     - 'https://8.8.4.4/dns-query'
     - 'https://i.233py.com/dns-query'
