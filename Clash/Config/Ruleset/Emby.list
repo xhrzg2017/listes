@@ -1,3 +1,5 @@
 # 内容：Emby
-# 数量：1条
+# 数量：3条
 DOMAIN-SUFFIX,hk.xhrzg2017.xyz
+DST-PORT,8096
+DST-PORT,8920
