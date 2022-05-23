@@ -198,8 +198,7 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://1.0.0.1/dns-query'
-    - 'https://8.8.4.4/dns-query'
+    - 'tls://591528.dns.nextdns.io'
     - 'https://dns.nextdns.io/591528'
 
     
