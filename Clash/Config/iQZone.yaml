@@ -199,7 +199,8 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'tls://591528.dns.nextdns.io'
-    - 'https://dns.nextdns.io/591528'
+    - 'tls://8.8.4.4'
+    - 'tls://1.0.0.1'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
