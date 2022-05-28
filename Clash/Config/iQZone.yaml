@@ -192,13 +192,11 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - '123.125.81.6'
-  - '114.114.114.114'
+  - 'https://dns.alidns.com/dns-query'
   - 'tls://c.passcloud.xyz'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'tls://591528.dns.nextdns.io'
     - 'tls://8.8.4.4'
     - 'tls://1.0.0.1'
 
