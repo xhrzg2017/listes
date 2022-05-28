@@ -195,13 +195,12 @@ dns:
   nameserver:
     - 'quic://c.passcloud.xyz:784'
     - 'quic://h.iqiq.io:784'
-    - 'https://dns.alidns.com/dns-query '
+    - 'https://dns.alidns.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://1.0.0.1/dns-query#✅ 节点选择'
-    - 'https://8.8.4.4/dns-query#✅ 节点选择'
-    - 'https://dns.nextdns.io/591528#✅ 节点选择'
+    - 'https://1.0.0.1/dns-query#🇭🇰 港澳节点'
+    - 'https://8.8.4.4/dns-query#🇭🇰 港澳节点'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
