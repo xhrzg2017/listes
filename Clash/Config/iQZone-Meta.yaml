@@ -195,7 +195,7 @@ dns:
   nameserver:
     - 'quic://c.passcloud.xyz:784'
     - 'quic://h.iqiq.io:784'
-    - 'https://dns.alidns.com/dns-query'
+    - 'https://v.233py.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
