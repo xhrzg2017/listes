@@ -192,7 +192,7 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - 'https://dns.alidns.com/dns-query'
+  - 'https://v.233py.com/dns-query'
   - 'tls://c.passcloud.xyz'
 
   fallback:
