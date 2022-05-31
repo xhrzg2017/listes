@@ -202,7 +202,7 @@ dns:
     - 'https://cloudflare-dns.com/dns-query#🇭🇰 港澳节点'
     - 'https://dns.google/dns-query#🇭🇰 港澳节点'
     - 'https://public.dns.iij.jp/dns-query#🇭🇰 港澳节点'
-    - 'https://doh-jp.blahdns.com/dns-query#🇭🇰 港澳节点'
+    - 'https://dns11.quad9.net/dns-query#🇭🇰 港澳节点'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
