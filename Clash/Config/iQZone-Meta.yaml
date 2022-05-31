@@ -201,6 +201,8 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://cloudflare-dns.com/dns-query#🇭🇰 港澳节点'
     - 'https://dns.google/dns-query#🇭🇰 港澳节点'
+    - 'https://public.dns.iij.jp/dns-query#🇭🇰 港澳节点'
+    - 'https://doh-jp.blahdns.com/dns-query#🇭🇰 港澳节点'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
