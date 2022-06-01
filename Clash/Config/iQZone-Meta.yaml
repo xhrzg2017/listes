@@ -199,10 +199,10 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://cloudflare-dns.com/dns-query#🇭🇰 港澳节点'
-    - 'https://dns.google/dns-query#🇭🇰 港澳节点'
-    - 'https://public.dns.iij.jp/dns-query#🇭🇰 港澳节点'
-    - 'https://dns11.quad9.net/dns-query#🇭🇰 港澳节点'
+    - 'https://9.9.9.9:5053/dns-query#🇭🇰 港澳节点'
+    - 'https://9.9.9.10:5053/dns-query#🇭🇰 港澳节点'
+    - 'https://hk-hkg.doh.sb/dns-query#🇭🇰 港澳节点'
+   
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
