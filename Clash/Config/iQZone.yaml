@@ -197,8 +197,8 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://dns.google/dns-query'
-    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://9.9.9.9:5053/dns-query'
+    - 'https://hk-hkg.doh.sb/dns-query'
 
     
     #- 'https://public.dns.iij.jp/dns-query'
