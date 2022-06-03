@@ -193,14 +193,13 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'quic://c.passcloud.xyz:784'
-    - 'quic://h.iqiq.io:784'
+    - 'https://i.233py.com/dns-query'
     - 'https://v.233py.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://9.9.9.9:5053/dns-query#🇭🇰 港澳节点'
-    - 'https://9.9.9.10:5053/dns-query#🇭🇰 港澳节点'
+    - 'https://dns.twnic.tw/dns-query#🇭🇰 港澳节点'
     - 'https://hk-hkg.doh.sb/dns-query#🇭🇰 港澳节点'
    
     
