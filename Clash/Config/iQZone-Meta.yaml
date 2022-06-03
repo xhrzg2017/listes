@@ -193,15 +193,14 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'https://i.233py.com/dns-query'
+    - 'tls://c.passcloud.xyz:853'
     - 'quic://c.passcloud.xyz:784'
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://dns.twnic.tw/dns-query#🇭🇰 港澳节点'
-    - 'https://hk-hkg.doh.sb/dns-query#🇭🇰 港澳节点'
+    - 'tls://8.8.8.8#🇭🇰 港澳节点'
+    - 'tls://1.0.0.1#🇭🇰 港澳节点'
    
-    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://doh.dns.sb/dns-query'
