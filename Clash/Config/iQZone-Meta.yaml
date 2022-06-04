@@ -193,14 +193,16 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'tls://v.233py.com'
-    - 'tls://c.passcloud.xyz' 
+    - 'udp://114.114.114.114'
+    - 'udp://123.125.81.6'
+    - 'tls://c.passcloud.xyz'
+    - 'tls://dns.rubyfish.cn' 
     
   fallback:
     # -国内可用的 doh、dot 列表
     - 'tls://8.8.8.8#🇭🇰 港澳节点'
     - 'tls://1.0.0.1#🇭🇰 港澳节点'
-    - 'https://1.0.0.1/dns-query#🇭🇰 港澳节点'
+    - 'https://a.passcloud.xyz/dns-query#🇭🇰 港澳节点'
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
