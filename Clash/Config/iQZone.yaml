@@ -192,7 +192,7 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - 'tls://h.iqiq.io'
+  - 'tcp://h.iqiq.io:777'
   - 'tls://c.passcloud.xyz'
 
   fallback:
@@ -200,8 +200,6 @@ dns:
     - 'tls://8.8.8.8'
     - 'tls://1.0.0.1'
     - 'https://1.0.0.1/dns-query'
-    - 'https://i.233py.com/dns-query'
-    
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
