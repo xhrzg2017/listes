@@ -200,6 +200,7 @@ dns:
     - 'tls://8.8.8.8'
     - 'tls://1.0.0.1'
     - 'https://1.0.0.1/dns-query'
+    - 'https://a.passcloud.xyz/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
