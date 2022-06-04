@@ -201,7 +201,7 @@ dns:
     - 'tls://8.8.8.8#🇭🇰 港澳节点'
     - 'tls://1.0.0.1#🇭🇰 港澳节点'
     - 'https://1.0.0.1/dns-query#🇭🇰 港澳节点'
-    - 'https://i.233py.com/dns-query#🇭🇰 港澳节点'
+    - 'https://a.passcloud.xyz/dns-query#🇭🇰 港澳节点'
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
