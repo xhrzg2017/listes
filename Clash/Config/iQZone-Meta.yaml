@@ -195,6 +195,7 @@ dns:
   nameserver:
     - 'udp://114.114.114.114'
     - 'udp://123.125.81.6'
+    - 'tls://c.passcloud.xyz' 
     
   fallback:
     # -国内可用的 doh、dot 列表
