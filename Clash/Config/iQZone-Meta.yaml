@@ -193,8 +193,8 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'tls://c.passcloud.xyz:853'
-    - 'tcp://h.iqiq.io:777'
+    - 'udp://114.114.114.114'
+    - 'udp://123.125.81.6'
     
   fallback:
     # -国内可用的 doh、dot 列表
