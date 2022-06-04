@@ -194,7 +194,7 @@ dns:
     
   nameserver:
     - 'tls://c.passcloud.xyz:853'
-    - 'quic://c.passcloud.xyz:784'
+    - 'tcp://h.iqiq.io:777'
     
   fallback:
     # -国内可用的 doh、dot 列表
