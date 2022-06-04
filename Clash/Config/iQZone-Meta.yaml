@@ -193,8 +193,7 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'udp://114.114.114.114'
-    - 'udp://123.125.81.6'
+    - 'tls://v.233py.com'
     - 'tls://c.passcloud.xyz' 
     
   fallback:
@@ -202,7 +201,6 @@ dns:
     - 'tls://8.8.8.8#🇭🇰 港澳节点'
     - 'tls://1.0.0.1#🇭🇰 港澳节点'
     - 'https://1.0.0.1/dns-query#🇭🇰 港澳节点'
-    - 'https://a.passcloud.xyz/dns-query#🇭🇰 港澳节点'
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
