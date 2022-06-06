@@ -119,7 +119,7 @@ clash-for-android:
 dns:
   enable: false
   listen: 0.0.0.0:53
-  ipv6: true
+  ipv6: false
   
   default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
     - 114.114.114.114
@@ -316,7 +316,7 @@ cfw-latency-url: http://edge.microsoft.com/captiveportal/generate_204
 # 支持向所有配置文件中注入公共属性设置
 #cfw-profile-mixin:
   #dns:
-    #enable: false
+    #enable: true
     #listen: :53
     #enhanced-mode: fake-ip
     #nameserver:
