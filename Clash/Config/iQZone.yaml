@@ -192,14 +192,12 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'udp://114.114.114.114'
-    - 'udp://123.125.81.6'
-    - 'tls://c.passcloud.xyz' 
-    - 'tls://dns.rubyfish.cn'
+    - 'https://v.233py.com/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://dns.pub/dns-query'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'tls://8.8.8.8'
     - 'tls://1.0.0.1'
     - 'https://a.passcloud.xyz/dns-query'
     
