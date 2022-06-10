@@ -1,4 +1,6 @@
 # 内容：Emby
-# 数量：2条
+# 数量：4条
+DOMAIN,hk.xhrzg2017.xyz,DIRECT
+DOMAIN,emby.xhrzg2017.xyz,DIRECT
 DST-PORT,8096
 DST-PORT,8920
