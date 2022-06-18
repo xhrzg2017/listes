@@ -194,7 +194,7 @@ dns:
     
   nameserver:
     - 'https://233.6.6.6/dns-query'
-    - 'https://120.53.53.53/dns-query' 
+    - 'tls://c.passcloud.xyz' 
     
   fallback:
     # -国内可用的 doh、dot 列表
