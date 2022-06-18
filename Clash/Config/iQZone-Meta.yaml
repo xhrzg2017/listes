@@ -196,16 +196,16 @@ dns:
     
   nameserver:
     - 'https://233.6.6.6/dns-query'
-     - 'tls://c.passcloud.xyz'
+    - 'tls://c.passcloud.xyz'
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'tls://v.233py.com'
-    - 'tls://dns.233py.com'
+    - 'https://dns.google/dns-query#🧐 智能推荐'
+    - 'https://azure.cloudflare-dns.com/dns-query#🧐 智能推荐'
        
   proxy-server-nameserver:
-    - 'https://1.0.0.1/dns-query#P-DNS'
-    - 'https://8.8.8.8/dns-query#P-DNS'
+    - 'https://dns.google/dns-query#🖥️ 节点DNS'
+    - 'https://a.passcloud.xyz/cdn#🖥️ 节点DNS' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
