@@ -198,9 +198,12 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'tls://1.0.0.1#🇭🇰 港澳节点'
-    - 'https://1.0.0.1/dns-query#🇭🇰 港澳节点'
-    - 'https://8.8.8.8/dns-query#🇭🇰 港澳节点'
+    - 'https://dns.google/dns-query#🧐 智能推荐'
+    - 'https://azure.cloudflare-dns.com/dns-query#🧐 智能推荐'
+       
+  proxy-server-nameserver:
+    - 'https://dns.google/dns-query#🖥️ 节点DNS'
+    - 'quic://a.passcloud.xyz:784#🖥️ 节点DNS'  
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
