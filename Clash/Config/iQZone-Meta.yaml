@@ -194,12 +194,15 @@ dns:
     
   nameserver:
     - 'https://233.6.6.6/dns-query'
-    - 'https://120.53.53.53/dns-query' 
+    - 'quic://c.passcloud.xyz:784' 
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'tls://dns.233py.com'
-    - 'https://1.0.0.1/dns-query#🇭🇰 港澳节点'
+    - 'https://dns.google/dns-query#🧐 智能推荐'
+    - 'https://azure.cloudflare-dns.com/dns-query#🧐 智能推荐'
+       
+  proxy-server-nameserver:
+    - 'quic://a.passcloud.xyz:784#🇭🇰 港澳节点'
     - 'https://8.8.8.8/dns-query#🇭🇰 港澳节点'
    
     #- 'https://public.dns.iij.jp/dns-query'
