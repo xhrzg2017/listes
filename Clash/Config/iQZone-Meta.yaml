@@ -199,8 +199,8 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://dns.google/dns-query#A-DNS'
-    - 'https://azure.cloudflare-dns.com/dns-query#A-DNS'
+    - 'tls://v.233py.com'
+    - 'tls://dns.233py.com#A-DNS'
        
   proxy-server-nameserver:
     - 'quic://a.passcloud.xyz:784#P-DNS'
