@@ -201,7 +201,7 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'tls://v.233py.com'
-    - 'tls://dns.233py.com#'
+    - 'tls://dns.233py.com'
        
   proxy-server-nameserver:
     - 'https://1.0.0.1/dns-query#P-DNS'
