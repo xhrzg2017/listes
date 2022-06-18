@@ -120,9 +120,7 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   ipv6: false
-  default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
-    - 114.114.114.114
-    - 8.8.8.8
+
   enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
