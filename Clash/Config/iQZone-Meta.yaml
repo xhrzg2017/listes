@@ -204,7 +204,7 @@ dns:
     - 'tls://dns.233py.com#P-DNS#A-DNS'
        
   proxy-server-nameserver:
-    - 'quic://a.passcloud.xyz:784#P-DNS#P-DNS'
+    - 'quic://a.passcloud.xyz:784#P-DNS'
     - 'https://8.8.8.8/dns-query#P-DNS'
    
     #- 'https://public.dns.iij.jp/dns-query'
