@@ -196,6 +196,7 @@ dns:
     
   nameserver:
     - 'https://233.6.6.6/dns-query'
+    - 'https://dns.zhebk.cn/dns-query'
     - 'tls://c.passcloud.xyz'
     
   fallback:
@@ -218,7 +219,8 @@ dns:
     #- 'tls://8.8.4.4'
   fallback-filter:
     geoip: true
-    geoip-code: CN
+    geosite: 
+      - '!CN'
     ipcidr:
       - 240.0.0.0/4
 #      - 0.0.0.0/32
