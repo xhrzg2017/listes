@@ -122,8 +122,8 @@ dns:
   ipv6: false
   default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
     - 114.114.114.114
-    - 120.53.53.53
     - 233.5.5.5
+    - 8.8.8.8
   enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
@@ -190,14 +190,11 @@ dns:
     - '+.stun.*.*.*'
     - '+.stun.*.*'
     - 'stun.*.*.*'
-    - 'stun.*.*'
-    
-
+    - 'stun.*.*' 
     
   nameserver:
-    - 'https://233.6.6.6/dns-query'
     - 'https://dns.zhebk.cn/dns-query'
-    - 'tls://c.passcloud.xyz'
+    - 'quic://c.passcloud.xyz:784'
     
   fallback:
     # -国内可用的 doh、dot 列表
@@ -206,7 +203,7 @@ dns:
        
   proxy-server-nameserver:
     - 'https://dns.google/dns-query#🖥️ 节点DNS'
-    - 'https://a.passcloud.xyz/cdn#🖥️ 节点DNS' 
+    - 'quic://a.passcloud.xyz:784#🖥️ 节点DNS' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
