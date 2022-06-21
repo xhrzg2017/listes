@@ -203,7 +203,7 @@ dns:
        
   proxy-server-nameserver:
     - 'https://dns.google/dns-query#🖥️ 节点DNS'
-    - 'https://a.passcloud.xyz/cdn#🖥️ 节点DNS' 
+    - 'quic://c.passcloud.xyz:784#🖥️ 节点DNS' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
