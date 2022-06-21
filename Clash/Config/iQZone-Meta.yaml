@@ -199,11 +199,11 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://dns.google/dns-query#🧐 智能推荐'
-    - 'https://azure.cloudflare-dns.com/dns-query#🧐 智能推荐'
+    - 'quic://a.passcloud.xyz:784#🧐 智能推荐'
        
   proxy-server-nameserver:
     - 'https://dns.google/dns-query#🖥️ 节点DNS'
-    - 'quic://a.passcloud.xyz:784#🖥️ 节点DNS' 
+    - 'https://1.233py.com/dns-query#🖥️ 节点DNS' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
