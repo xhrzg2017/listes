@@ -193,7 +193,7 @@ dns:
     - 'stun.*.*' 
     
   nameserver:
-    - 'https://dns.zhebk.cn/dns-query'
+    - 'tls://223.6.6.6'
     - 'https://z.iqiq.io/dns-query'
     - 'quic://c.passcloud.xyz:784'
     
