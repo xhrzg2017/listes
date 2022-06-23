@@ -194,6 +194,7 @@ dns:
     
   nameserver:
     - 'https://dns.zhebk.cn/dns-query'
+    - 'https://z.iqiq.io/dns-query'
     - 'quic://c.passcloud.xyz:784'
     
   fallback:
