@@ -193,7 +193,6 @@ dns:
     - 'stun.*.*' 
     
   nameserver:
-    - 'tls://223.6.6.6'
     - 'https://dns.zhebk.cn/dns-query'
     - 'https://z.iqiq.io/dns-query'
     - 'quic://c.passcloud.xyz:784'
@@ -202,12 +201,12 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://8.8.8.8/dns-query#🧐 智能推荐'
     - 'https://1.0.0.1/dns-query#🧐 智能推荐'
-    - 'https://i.233py.com/dns-query#🧐 智能推荐'
+    - 'https://a.passcloud.xyz/cdn#🧐 智能推荐'
     - 'https://i.passcloud.xyz/dns-query#🧐 智能推荐'
        
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
-    - 'https://i.233py.com/dns-query#🖥️ 节点DNS' 
+    - 'https://z.iqiq.io/dns-query#🖥️ 节点DNS' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
