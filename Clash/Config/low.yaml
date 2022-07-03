@@ -193,13 +193,13 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-  - 'https://dns.alidns.com/dns-query'
-  - 'https://doh.360.cn/dns-query'
-
+    - 'tls://223.6.6.6'
+    - 'https://dns.zhebk.cn/dns-query'
+    
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://i.233py.com/dns-query'
-    - 'https://v.233py.com/dns-query'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://doh.opendns.com/dns-query'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
