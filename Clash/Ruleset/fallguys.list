@@ -10,5 +10,4 @@
 # IP-CIDR6,2620:149:a44::/48
 
 # 糖豆人 
-DOMAIN,gateway.fallguys.oncatapult.com
-DOMAIN,analytics-gateway.fallguys.oncatapult.com
+DOMAIN-SUFFIX,fallguys.oncatapult.com
