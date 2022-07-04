@@ -70,10 +70,8 @@ hosts:
    'sub.789.st': 172.67.193.176
    'subconverter.herokuapp.com': 54.165.58.209
    'sub.id9.cc': 104.218.235.103
-   'raw.githubusercontent.com': 185.199.108.133
    'uuu.glass': 45.88.195.157
-   'ftp.xhrzg2017.xyz': 172.16.0.5
-   'www.xhrzg2017.xyz': 172.16.0.4
+
    
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
@@ -193,8 +191,8 @@ dns:
     - 'stun.*.*' 
     
   nameserver:
-    - 'https://dns.zhebk.cn/dns-query'
     - 'https://z.iqiq.io/dns-query'
+    - 'tcp://h.iqiq.io:777'
     - 'quic://c.passcloud.xyz:784'
     
   fallback:
@@ -205,7 +203,7 @@ dns:
        
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
-    - 'https://i.233py.com/dns-query#🖥️ 节点DNS' 
+    - 'tcp://h.iqiq.io:777#🖥️ 节点DNS' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
