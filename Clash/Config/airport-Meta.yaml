@@ -198,8 +198,8 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://public.dns.iij.jp/dns-query#✅ 节点选择'
-    - 'https://doh.opendns.com/dns-query#✅ 节点选择'
+    - 'https://1.1.1.1/dns-query#✅ 节点选择'
+    - 'https://8.8.8.8/dns-query#✅ 节点选择'
        
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
