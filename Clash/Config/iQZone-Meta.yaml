@@ -197,9 +197,8 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://1.1.1.1/dns-query#✅ 节点选择'
-    - 'https://8.8.8.8/dns-query#✅ 节点选择'
-    - 'https://i.passcloud.xyz/dns-query#✅ 节点选择'      
+    - 'https://mozilla.cloudflare-dns.com/dns-query#✅ 节点选择'
+    - 'https://dns.google/dns-query#✅ 节点选择'  
     
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
