@@ -189,9 +189,7 @@ dns:
     - '+.stun.*.*'
     - 'stun.*.*.*'
     - 'stun.*.*' 
-    ## Wetv
-    - '*.wetv.vip'
-    - 'wetv.vip'
+
     
   nameserver:
     - 'https://z.iqiq.io/dns-query'
@@ -277,6 +275,10 @@ dns:
       - '+.aaplimg.com'
       - 'apps.apple.com'
 #  Apple TV https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list
+      # Wetv
+      - '*.wetv.vip'
+      - 'wetv.vip'
+      
 #cfw tun mode配置
 #失效
 # 1. clash DNS 请求逻辑：
