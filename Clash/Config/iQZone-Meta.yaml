@@ -189,6 +189,9 @@ dns:
     - '+.stun.*.*'
     - 'stun.*.*.*'
     - 'stun.*.*' 
+    ## Wetv
+    - '*.wetv.vip'
+    - 'wetv.vip'
     
   nameserver:
     - 'https://z.iqiq.io/dns-query'
