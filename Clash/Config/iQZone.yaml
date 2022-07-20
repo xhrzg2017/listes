@@ -71,6 +71,7 @@ hosts:
    'subconverter.herokuapp.com': 54.165.58.209
    'sub.id9.cc': 104.218.235.103
    'uuu.glass': 45.88.195.157
+   'wetv.vip': 210.0.146.176   
    
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
