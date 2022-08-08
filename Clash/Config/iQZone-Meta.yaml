@@ -192,9 +192,8 @@ dns:
 
     
   nameserver:
-    - 'https://z.iqiq.io/dns-query'
-    - 'tcp://h.iqiq.io:777'
-    - 'quic://c.passcloud.xyz:784'
+    - 'https://i.passcloud.xyz/dns-query'
+    - 'https://a.passcloud.xyz/sz'
     
   fallback:
     # -国内可用的 doh、dot 列表
