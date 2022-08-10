@@ -192,8 +192,8 @@ dns:
 
     
   nameserver:
-    - 'https://v.233py.com/dns-query'
-    - 'https://dns.233py.com/dns-query'
+    - 'https://a.passcloud.xyz/sz'
+    - 'https://i.passcloud.xyz/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
@@ -247,6 +247,7 @@ dns:
       - '+.googleapis.cn'
       - '+.gvt1.com'
       # google 服务
+      - 'dl.google.com'
       - 'translate.googleapis.com'
       - 'safebrowsing-cache.google.com'
       - 'safebrowsing.googleapis.com'
