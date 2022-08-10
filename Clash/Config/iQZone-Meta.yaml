@@ -192,8 +192,8 @@ dns:
 
     
   nameserver:
-    - 'https://i.passcloud.xyz/dns-query'
-    - 'https://a.passcloud.xyz/sz'
+    - 'https://v.233py.com/dns-query'
+    - 'https://dns.233py.com/dns-query'
     
   fallback:
     # -国内可用的 doh、dot 列表
