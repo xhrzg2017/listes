@@ -241,6 +241,7 @@ dns:
       - '+.googleapis.cn'
       - '+.gvt1.com'
       # google 服务
+      - 'dl.google.com'
       - 'translate.googleapis.com'
       - 'safebrowsing-cache.google.com'
       - 'safebrowsing.googleapis.com'
