@@ -192,7 +192,7 @@ dns:
     
   nameserver:
     - 'https://i.passcloud.xyz/dns-query'
-    - 'https://a.passcloud.xyz/sz'
+    - 'tls://223.5.5.5'
 
   fallback:
     # -国内可用的 doh、dot 列表
