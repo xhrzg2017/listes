@@ -198,7 +198,7 @@ dns:
     # -国内可用的 doh、dot 列表
     - 'https://mozilla.cloudflare-dns.com/dns-query'
     - 'tls://8.8.4.4:853'
-    - ''https://doh.dns.sb/dns-query''
+    - 'https://doh.dns.sb/dns-query'
     - 'https://dns.twnic.tw/dns-query'
     
     
