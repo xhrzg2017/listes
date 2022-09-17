@@ -214,7 +214,6 @@ dns:
     #- 'tls://8.8.4.4'
   fallback-filter:
     geoip: true
-    geoip-code: CN
     geosite:
       - "!CN"
     ipcidr:
