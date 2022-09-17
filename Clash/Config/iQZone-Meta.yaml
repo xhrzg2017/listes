@@ -192,13 +192,15 @@ dns:
 
     
   nameserver:
-    - 'https://a.passcloud.xyz/sz'
-    - 'https://i.passcloud.xyz/dns-query'
-    
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://mozilla.cloudflare-dns.com/dns-query#✅ 节点选择'
-    - 'https://dns.google/dns-query#✅ 节点选择'  
+    - 'tls://8.8.4.4:853#✅ 节点选择'
+    - 'https://doh.dns.sb/dns-query#✅ 节点选择'
+    - 'https://dns.twnic.tw/dns-query#✅ 节点选择'
     
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
