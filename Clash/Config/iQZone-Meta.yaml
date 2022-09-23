@@ -199,7 +199,7 @@ dns:
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://mozilla.cloudflare-dns.com/dns-query#✅ 节点选择'
-    - 'tls://8.8.4.4:853#✅ 节点选择'
+    - 'https://i.passcloud.xyz/dns-query#✅ 节点选择'
     - 'https://doh.dns.sb/dns-query#✅ 节点选择'
     - 'https://dns.twnic.tw/dns-query#✅ 节点选择'
     
