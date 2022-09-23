@@ -193,12 +193,11 @@ dns:
   nameserver:
     - 'https://doh.pub/dns-query'
     - 'https://dns.alidns.com/dns-query'
-    - 'https://a.passcloud.xyz/sz'
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://mozilla.cloudflare-dns.com/dns-query'
-    - 'https://i.passcloud.xyz/dns-query'
+    - 'https://8.8.8.8/dns-query'
     - 'https://doh.dns.sb/dns-query'
     - 'https://dns.twnic.tw/dns-query'
     
