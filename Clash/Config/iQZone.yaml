@@ -196,10 +196,10 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://mozilla.cloudflare-dns.com/dns-query'
-    - 'https://8.8.8.8/dns-query'
-    - 'https://doh.dns.sb/dns-query'
-    - 'https://dns.twnic.tw/dns-query'
+    - 'https://dns.cloudflare.com/dns-query'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://jp.tiar.app/dns-query'
+    - 'https://jp.tiarap.org/dns-query'
     
     
     #- 'https://public.dns.iij.jp/dns-query'
