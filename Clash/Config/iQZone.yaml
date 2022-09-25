@@ -193,6 +193,7 @@ dns:
   nameserver:
     #- 'https://doh.pub/dns-query'
     #- 'https://dns.alidns.com/dns-query'
+    - 'https://a.passcloud.xyz/sz'
     - 'https://doh.apad.pro/dns-query'
   fallback:
     # -国内可用的 doh、dot 列表
