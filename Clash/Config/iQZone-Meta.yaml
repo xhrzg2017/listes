@@ -193,14 +193,16 @@ dns:
     
   nameserver:
     - 'https://doh.apad.pro/dns-query'
+    - 'https://doh.apad.pro/cdn-query'
     - 'https://dns.zhebk.cn/dns-query'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://dns.cloudflare.com/dns-query#✅ 节点选择'
+    - 'https://azure.cloudflare-dns.com/dns-query#✅ 节点选择'
+    - 'https://dns.google.com/dns-query#✅ 节点选择'
     - 'https://101.101.101.101/dns-query#✅ 节点选择'
     - 'https://doh.dns.sb/dns-query#✅ 节点选择'
-    - 'https://doh.apad.pro/cdn-query#✅ 节点选择'
+   
         
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
