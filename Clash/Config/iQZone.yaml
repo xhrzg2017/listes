@@ -197,10 +197,11 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://1dot1dot1dot1.cloudflare-dns.com/dns-query'
+    - 'https://doh.opendns.com/dns-query'
     - 'https://dns.google.com/dns-query'
     - 'https://dns.twnic.tw/dns-query'
-    - 'https://hk-hkg.doh.sb/dns-query'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://i.passcloud.xyz/dns-query'
    
     
     
