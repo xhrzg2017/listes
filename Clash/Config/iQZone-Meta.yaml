@@ -192,7 +192,7 @@ dns:
 
     
   nameserver:
-    - 'https://doh.apad.pro/cdn-query'
+    - 'https://doh.apad.pro/cn-query'
     - 'https://dns.zhebk.cn/dns-query'
 
   fallback:
@@ -201,7 +201,7 @@ dns:
     #- 'https://dns.google.com/dns-query#✅ 节点选择'
     #- 'https://dns.twnic.tw/dns-query#✅ 节点选择'
     #- 'https://public.dns.iij.jp/dns-query#✅ 节点选择'
-    - 'https://japan.dnsovertor.tk/dns-query#✅ 节点选择'
+    - 'https://doh.apad.pro/hk-query#✅ 节点选择'
     - 'https://hongkong1.dnsovertor.tk/dns-query#✅ 节点选择'
     - 'https://hongkong.dnsovertor.tk/dns-query#✅ 节点选择'    
         
