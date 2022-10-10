@@ -204,7 +204,6 @@ dns:
     - 'https://doh.apad.pro/hk-query#✅ 节点选择'
     - 'https://i.passcloud.xyz/dns-query#✅ 节点选择'
     - 'https://cdn.iqiq.io/dns-query#✅ 节点选择'
-    - 'https://hongkong.dnsovertor.tk/dns-query#✅ 节点选择'    
         
   proxy-server-nameserver:
     - 'https://8.8.8.8/dns-query#🖥️ 节点DNS'
