@@ -201,8 +201,8 @@ dns:
     #- 'https://dns.twnic.tw/dns-query'
     #- 'https://public.dns.iij.jp/dns-query'
     - 'https://doh.apad.pro/hk-query'
-    - 'https://hongkong1.dnsovertor.tk/dns-query'
-    - 'https://hongkong.dnsovertor.tk/dns-query'    
+    - 'https://i.passcloud.xyz/dns-query'
+    - 'https://cdn.iqiq.io/dns-query' 
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
