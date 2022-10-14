@@ -192,8 +192,8 @@ dns:
 
     
   nameserver:
-    - 'https://dns.alidns.com/dns-query'
-    - 'https://doh.pub/dns-query'
+    - 'https://doh.apad.pro/cn-query'
+    - 'https://dns.zhebk.cn/dns-query'
 
   fallback:
     # -国内可用的 doh、dot 列表
