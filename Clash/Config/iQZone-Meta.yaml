@@ -191,8 +191,8 @@ dns:
 
     
   nameserver:
-    - 'https://dns.alidns.com/dns-query'
-    - 'https://doh.pub/dns-query'
+    - 'https://dns.ipv6dns.com/dns-query'
+    - 'tls://dns.ipv6dns.com'
     - 'tcp://h.iqiq.io:777'
 
   fallback:
