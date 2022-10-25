@@ -191,8 +191,8 @@ dns:
 
     
   nameserver:
-   - 'https://doh.apad.pro/cn-query'
-   - 'https://dns.zhebk.cn/dns-query'
+   - 'https://dns.alidns.com/dns-query'
+   - 'https://sm2.doh.pub/dns-query'
 
   fallback:
     # -国内可用的 doh、dot 列表
@@ -201,8 +201,8 @@ dns:
     #- 'https://dns.twnic.tw/dns-query#✅ 节点选择'
     #- 'https://public.dns.iij.jp/dns-query#✅ 节点选择'
     - 'https://doh.apad.pro/hk-query#✅ 节点选择'
+    - 'https://doh.opendns.com/dns-query#✅ 节点选择'
     - 'https://i.passcloud.xyz/dns-query#✅ 节点选择'
-    - 'https://a.passcloud.xyz/dns-query#✅ 节点选择'
     - 'https://proxy.iqiq.io/dns-query#✅ 节点选择'
         
   proxy-server-nameserver:
