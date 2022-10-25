@@ -200,14 +200,15 @@ dns:
     #- 'https://dns.google.com/dns-query#✅ 节点选择'
     #- 'https://dns.twnic.tw/dns-query#✅ 节点选择'
     #- 'https://public.dns.iij.jp/dns-query#✅ 节点选择'
-    - 'https://doh.apad.pro/hk-query#✅ 节点选择'
+    - 'https://1.1.1.1/dns-query#✅ 节点选择'
+    - 'https://8.8.8.8/dns-query#✅ 节点选择'
     - 'https://doh.opendns.com/dns-query#✅ 节点选择'
     - 'https://i.passcloud.xyz/dns-query#✅ 节点选择'
-    - 'https://proxy.iqiq.io/dns-query#✅ 节点选择'
+
         
   proxy-server-nameserver:
-    - 'https://i.passcloud.xyz/dns-query#🖥️ 节点DNS'
-    - 'https://223.5.5.5/dns-query#🖥️ 节点DNS' 
+    - 'https://i.passcloud.xyz/dns-query'
+    - 'https://a.passcloud.xyz/dns-query' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
