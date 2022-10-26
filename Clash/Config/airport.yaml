@@ -192,20 +192,17 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-    - 'https://doh.apad.pro/cn-query'
-    - 'https://dns.zhebk.cn/dns-query'
+   - 'https://dns.alidns.com/dns-query'
+   - 'https://sm2.doh.pub/dns-query'
+   - 'tcp://114.114.114.114'
+   - 'udp://210.2.4.8'
 
   fallback:
     # -国内可用的 doh、dot 列表
-    #- 'https://doh.opendns.com/dns-query'
-    #- 'https://dns.google.com/dns-query'
-    #- 'https://dns.twnic.tw/dns-query'
-    #- 'https://public.dns.iij.jp/dns-query'
-    - 'https://doh.apad.pro/hk-query'
-    - 'https://hongkong1.dnsovertor.tk/dns-query'
-    - 'https://hongkong.dnsovertor.tk/dns-query'    
-        
-    
+    - 'https://1.1.1.1/dns-query'
+    - 'https://8.8.8.8/dns-query'
+    - 'https://208.67.220.220/dns-query'
+            
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://doh.dns.sb/dns-query'
