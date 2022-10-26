@@ -202,7 +202,6 @@ dns:
     - 'https://1.1.1.1/dns-query#🖥️ 海外DNS'
     - 'https://8.8.8.8/dns-query#🖥️ 海外DNS'
     - 'https://208.67.220.220/dns-query#🖥️ 海外DNS'
-    - 'https://i.passcloud.xyz/dns-query#🖥️ 海外DNS'
         
   proxy-server-nameserver:
     - 'https://119.29.29.29/dns-query'
