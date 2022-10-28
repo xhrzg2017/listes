@@ -198,14 +198,14 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://1.1.1.1/dns-query#🖥️ 海外DNS'
-    - 'https://8.8.8.8/dns-query#🖥️ 海外DNS'
-    - 'https://208.67.220.220/dns-query#🖥️ 海外DNS'
-    - 'https://i.passcloud.xyz/dns-query#🖥️ 海外DNS'
-    #- 'https://doh.opendns.com/dns-query#✅ 节点选择'
-    #- 'https://dns.google.com/dns-query#✅ 节点选择'
-    #- 'https://dns.twnic.tw/dns-query#✅ 节点选择'
-    #- 'https://public.dns.iij.jp/dns-query#✅ 节点选择'
+    - 'https://1.1.1.1/dns-query#DNShw'
+    - 'https://8.8.8.8/dns-query#DNShw'
+    - 'https://208.67.220.220/dns-query#DNShw'
+    - 'https://i.passcloud.xyz/dns-query#DNShw'
+    #- 'https://doh.opendns.com/dns-query#DNShwDNShw'
+    #- 'https://dns.google.com/dns-query#DNShw'
+    #- 'https://dns.twnic.tw/dns-query#DNShw'
+    #- 'https://public.dns.iij.jp/dns-query#DNShw'
 
         
   proxy-server-nameserver:
