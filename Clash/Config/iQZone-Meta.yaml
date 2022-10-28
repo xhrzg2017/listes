@@ -191,9 +191,9 @@ dns:
 
     
   nameserver:
-   - 'https://dns.alidns.com/dns-query'
-   - 'https://sm2.doh.pub/dns-query'
-   - 'tcp://114.114.114.114'
+   - 'udp://119.29.29.29'
+   - 'udp://223.5.5.5'
+   - 'ucp://114.114.114.114'
    - 'udp://210.2.4.8'
 
   fallback:
