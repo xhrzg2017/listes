@@ -209,8 +209,8 @@ dns:
 
         
   proxy-server-nameserver:
-    - 'https://i.passcloud.xyz/dns-query'
-    - 'https://a.passcloud.xyz/dns-query' 
+    - 'https://233.5.5.5/dns-query'
+    - '223.5.5.5' 
    
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
