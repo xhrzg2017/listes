@@ -4,4 +4,6 @@
 DOMAIN,overseauspider.yuanshen.com
 DOMAIN-SUFFIX,hoyoverse.com
 #亚服-日本阿里云
-IP-CIDR,8.211.157.235/32
+IP-CIDR,8.211.128.0/18
+IP-CIDR,47.74.0.0/18
+
