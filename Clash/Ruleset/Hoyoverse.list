@@ -1,7 +1,7 @@
 # 内容：hoyoverse
 # 数量：2条
 #原神
-DOMAIN,overseauspider.yuanshen.com
-DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN，overseauspider.yuanshen.com
+DOMAIN-SUFFIX，hoyoverse.com
 #亚服-日本阿里云
-IP-CIDR,8.211.157.235/32
+IP-CIDR，8.211.157.235/32
