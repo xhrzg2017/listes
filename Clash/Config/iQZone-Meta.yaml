@@ -124,6 +124,7 @@ dns:
   nameserver-policy:
    'dns.google': 8.8.8.8
    'dns.alidns.com': 223.5.5.5
+   'dns.pub': 119.29.29.29
    '+.googleapis.cn': 'https://dns.google/dns-query'    
     
   enhanced-mode: redir-host 
