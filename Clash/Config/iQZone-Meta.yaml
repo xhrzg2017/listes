@@ -121,6 +121,11 @@ dns:
   default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
     - 114.114.114.114
     - 233.5.5.5
+  nameserver-policy:
+   'dns.google': 8.8.8.8
+   'dns.alidns.com': 223.5.5.5
+   '+.googleapis.cn': 'https://dns.google/dns-query'    
+    
   enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
