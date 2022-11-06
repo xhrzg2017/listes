@@ -196,15 +196,13 @@ dns:
 
     
   nameserver:
-   - 'udp://119.29.29.29'
-   - 'udp://223.5.5.5'
-   - 'udp://114.114.114.114'
-   - 'udp://210.2.4.8'
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://dns.pub/dns-query'    
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://1.1.1.1/dns-query#DNShw'
-    - 'https://8.8.8.8/dns-query#DNShw'
+    - 'https://dns.google.com/dns-query#DNShw'
     - 'https://208.67.220.220/dns-query#DNShw'
     - 'https://i.passcloud.xyz/dns-query#DNShw'
     #- 'https://doh.opendns.com/dns-query#DNShwDNShw'
