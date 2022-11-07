@@ -205,7 +205,7 @@ dns:
     - 'https://1.1.1.1/dns-query#DNShw'
     - 'https://dns.google.com/dns-query#DNShw'
     - 'https://208.67.220.220/dns-query#DNShw'
-    - 'https://i.passcloud.xyz/dns-query#DNShw'
+    - 'https://a.iqiqcloud.com/dns-query#DNShw'
     #- 'https://doh.opendns.com/dns-query#DNShwDNShw'
     #- 'https://dns.google.com/dns-query#DNShw'
     #- 'https://dns.twnic.tw/dns-query#DNShw'
