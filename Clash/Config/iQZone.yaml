@@ -65,12 +65,6 @@ log-level: warning
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 hosts:
-   'api.dler.io': 172.67.203.47
-   'api.wcc.best': 172.67.140.28
-   'sub.789.st': 172.67.193.176
-   'subconverter.herokuapp.com': 54.165.58.209
-   'sub.id9.cc': 104.218.235.103
-   'uuu.glass': 45.88.195.157
    'wetv.vip': 210.0.146.176   
    
 #profile:
