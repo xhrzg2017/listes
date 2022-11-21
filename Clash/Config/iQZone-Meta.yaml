@@ -198,7 +198,6 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://b.vvvglass.com/iq'
     - 'https://dns.cloudflare.com/dns-query#DNShw'
     - 'https://public.dns.iij.jp/dns-query'
     - 'https://jp.tiar.app/dns-query'
