@@ -193,17 +193,17 @@ dns:
   nameserver:
     - '114.114.114.114'
     - '119.29.29.29'
-    - 'https://dns.alidns.com/dns-query'
+    - 'https://dns.alidns.com/dns-query#h3=true'
     - 'https://dns.pub/dns-query'    
 
   fallback:
     # -国内可用的 doh、dot 列表
     - 'https://b.vvvglass.com/iq'
     - 'https://dns.cloudflare.com/dns-query#DNShw'
-    - 'https://public.dns.iij.jp/dns-query#DNShw'
-    - 'https://jp.tiar.app/dns-query#DNShw'
-    - 'https://jp.tiarap.org/dns-query#DNShw'
-    - 'tls://dot.tiar.app#DNShw'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://jp.tiar.app/dns-query'
+    - 'https://jp.tiarap.org/dns-query'
+    - 'tls://dot.tiar.app'
     #- 'https://doh.opendns.com/dns-query#DNShwDNShw'
     #- 'https://dns.google.com/dns-query#DNShw'
     #- 'https://dns.twnic.tw/dns-query#DNShw'
