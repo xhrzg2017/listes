@@ -191,15 +191,18 @@ dns:
     - 'stun.*.*'
     
   nameserver:
-   - 'https://dns.alidns.com/dns-query'
-   - 'https://doh.pub/dns-query'
+    - '114.114.114.114'
+    - '119.29.29.29'
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://dns.pub/dns-query'    
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://1.1.1.1/dns-query'
-    - 'https://dns.google/dns-query'
-    - 'https://208.67.220.220/dns-query'
-    - 'https://b.vvvglass.com/iq'
+    - 'https://dns.cloudflare.com/dns-query'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://jp.tiar.app/dns-query'
+    - 'https://jp.tiarap.org/dns-query'
+    - 'tls://dot.tiar.app'
     
     #- 'https://public.dns.iij.jp/dns-query'
     #- 'https://doh.opendns.com/dns-query'
