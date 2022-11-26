@@ -26,7 +26,7 @@ bind-address: "*"
 ipv6: true
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
-# mode: rule
+ mode: rule
 
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
@@ -63,37 +63,42 @@ experimental:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
-#dns:
-  #enable: true # 是否启用dns false
-  #ipv6: false
-  #listen: 0.0.0.0:53
-  #enhanced-mode: redir-host # 模式：redir-host或fake-ip
-  #fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
-  #nameserver:
-     #- 223.5.5.5 # 阿里DNS
-     #- 180.76.76.76 # 百度DNS
-     #- 119.29.29.29 # 腾讯DNS
-     #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-     #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-     #- 114.114.114.114 # 114DNS
-     #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     #- https://doh.360.cn/dns-query # 360 DoH DNS
-  #fallback:
-     #- 8.8.8.8 # 谷歌DNS
-     #- 1.1.1.1 # Cloudflare DNS
-     #- tls://dns.rubyfish.cn:853
-     #- tls://1.0.0.1:853
-     #- tls://dns.google:853
-     #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
-  #fallback-filter:
-     #geoip: true # 默认
-     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-       #- 240.0.0.0/4
+dns:
+  enable: true # 是否启用dns false
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+     - '*.lan'
+     - localhost.ptlogin2.qq.com
+  default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
+     - 114.114.114.114
+     - 233.5.5.5
+  nameserver-policy:
+     'dns.google': 8.8.8.8
+     'dns.alidns.com': 223.5.5.5
+     'dns.pub': 119.29.29.29
+     '+.googleapis.cn': 'https://101.101.101.101/dns-query'  	 
+  nameserver:
+     - '114.114.114.114'
+     - '119.29.29.29'
+     - 'https://dns.alidns.com/dns-query#h3=true'
+     - 'https://dns.pub/dns-query'    
+
+  fallback:
+    # -国内可用的 doh、dot 列表
+     - 'https://dns.cloudflare.com/dns-query#DNShw'
+     - 'https://public.dns.iij.jp/dns-query'
+     - 'https://jp.tiar.app/dns-query'
+     - 'https://jp.tiarap.org/dns-query'
+     - 'tls://dot.tiar.app'
+  fallback-filter:
+     geoip: true # 默认
+     geoip-code: CN
+     geosite: "!CN"
+     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       - 240.0.0.0/4
 
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
