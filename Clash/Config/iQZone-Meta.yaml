@@ -79,7 +79,7 @@ dns:
      'dns.alidns.com': 223.5.5.5
      'dns.pub': 119.29.29.29
      '+.googleapis.cn': 'https://101.101.101.101/dns-query'  	 
-    nameserver:
+  nameserver:
      - '114.114.114.114'
      - '119.29.29.29'
      - 'https://dns.alidns.com/dns-query#h3=true'
@@ -92,7 +92,7 @@ dns:
      - 'https://jp.tiar.app/dns-query'
      - 'https://jp.tiarap.org/dns-query'
      - 'tls://dot.tiar.app'
-  #fallback-filter:
+  fallback-filter:
      geoip: true # 默认
 	 geoip-code: CN
 	 geosite: "!CN"
