@@ -85,7 +85,7 @@ dns:
   enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  fake-ip-filter:  
+  #fake-ip-filter:  
     # === LAN ===
     #- '+.lan'
 
