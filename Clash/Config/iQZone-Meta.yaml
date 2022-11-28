@@ -99,15 +99,15 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://dns.cloudflare.com/dns-query#DNShw'
+    - 'https://dns.cloudflare.com/dns-query'
     - 'https://public.dns.iij.jp/dns-query'
     - 'https://jp.tiar.app/dns-query'
     - 'https://jp.tiarap.org/dns-query'
     - 'tls://dot.tiar.app'
-    #- 'https://doh.opendns.com/dns-query#DNShwDNShw'
-    #- 'https://dns.google.com/dns-query#DNShw'
-    #- 'https://dns.twnic.tw/dns-query#DNShw'
-    #- 'https://public.dns.iij.jp/dns-query#DNShw'
+    #- 'https://doh.opendns.com/dns-query'
+    #- 'https://dns.google.com/dns-query'
+    #- 'https://dns.twnic.tw/dns-query'
+    #- 'https://public.dns.iij.jp/dns-query'
 
         
   proxy-server-nameserver:
