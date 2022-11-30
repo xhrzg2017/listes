@@ -85,25 +85,16 @@ dns:
   enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
- # fake-ip-filter:  
-    # === LAN ===
-    #- '+.lan'
-
-    
-    
   nameserver:
-    - '114.114.114.114'
-    - '119.29.29.29'
     - 'https://dns.alidns.com/dns-query#h3=true'
     - 'https://dns.pub/dns-query'    
 
   fallback:
     # -国内可用的 doh、dot 列表
-    - 'https://dns.cloudflare.com/dns-query'
-    - 'https://public.dns.iij.jp/dns-query'
-    - 'https://jp.tiar.app/dns-query'
-    - 'https://jp.tiarap.org/dns-query'
-    - 'tls://dot.tiar.app'
+   - 'https://doh.dns.sb/dns-query'
+   - 'https://dns.cloudflare.com/dns-query'
+   - 'https://dns.twnic.tw/dns-query'
+   - 'tls://8.8.4.4:853'
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://dns.google.com/dns-query'
     #- 'https://dns.twnic.tw/dns-query'
@@ -116,6 +107,9 @@ dns:
   
   fallback-filter:
     geoip: true
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
     geoip-code: CN
     geosite:
       - "!CN"
