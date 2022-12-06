@@ -92,10 +92,8 @@ dns:
     
     
   nameserver:
-    #- 'https://dns.alidns.com/dns-query'
-    #- 'https://dns.pub/dns-query'  
-    - 'https://cn-east.lele233.com/dns-query'
-    - 'tls://cn-east.lele233.com'
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://dns.pub/dns-query'  
 
   fallback:
     # -国内可用的 doh、dot 列表
