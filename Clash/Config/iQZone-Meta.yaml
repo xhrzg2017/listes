@@ -86,8 +86,10 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
-    - 'https://dns.alidns.com/dns-query#h3=true'
-    - 'https://dns.pub/dns-query'    
+    #- 'https://dns.alidns.com/dns-query#h3=true'
+    #- 'https://dns.pub/dns-query'   
+    - 'https://cn-east.lele233.com/dns-query'
+    - 'quic://cn-east.ovo.glass'
 
   fallback:
     # -国内可用的 doh、dot 列表
