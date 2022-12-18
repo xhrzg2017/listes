@@ -88,6 +88,7 @@ dns:
   nameserver:
     - 'https://dns.alidns.com/dns-query#h3=true'
     - 'https://dns.pub/dns-query'   
+    - 'https://dns.ipv6dns.com/dns-query'
 
 
   fallback:
