@@ -93,10 +93,11 @@ dns:
 
   fallback:
     # -国内可用的 doh、dot 列表
-   - 'https://doh.dns.sb/dns-query'
-   - 'https://dns.cloudflare.com/dns-query'
-   - 'https://dns.twnic.tw/dns-query'
-   - 'tls://8.8.4.4:853'
+   - 'https://doh.dns.sb/dns-query#🇭🇰 香港节点'
+   - 'https://dns.cloudflare.com/dns-query#🇭🇰 香港节点'
+   - 'https://dns.twnic.tw/dns-query#🇭🇰 香港节点'
+   - 'tls://8.8.4.4:853#🇭🇰 香港节点'
+   
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://dns.google.com/dns-query'
     #- 'https://dns.twnic.tw/dns-query'
