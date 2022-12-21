@@ -91,9 +91,9 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-   - 'https://[2606:4700:4700::64]/dns-query'
-   - 'https://[2606:4700:4700::6464]/dns-query'
-   - 'https://dns64.dns.google/dns-query'
+   - 'https://[2606:4700:4700::64]/dns-query#🇭🇰 香港节点'
+   - 'https://[2606:4700:4700::6464]/dns-query#🇭🇰 香港节点'
+   - 'https://dns64.dns.google/dns-query#🇭🇰 香港节点'
 
    
     #- 'https://doh.opendns.com/dns-query'
