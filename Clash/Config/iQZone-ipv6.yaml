@@ -93,11 +93,10 @@ dns:
     
   fallback:
     # -国内可用的 doh、dot 列表
-   - 'https://dns.twnic.tw/dns-query#🇨🇳 台湾节点'
-   - 'https://unfiltered.adguard-dns.com/dns-query#🇭🇰 香港节点'
+   - 'https://dns.twnic.tw/dns-query#🇨🇭🇰 香港节点'
    - 'https://dns.google/dns-query#🇭🇰 香港节点'
+   - 'https://public.dns.iij.jp/dns-query#🇯🇵 日本节点'
 
-   
     #- 'https://doh.opendns.com/dns-query'
     #- 'https://dns.google.com/dns-query'
     #- 'https://dns.twnic.tw/dns-query'
