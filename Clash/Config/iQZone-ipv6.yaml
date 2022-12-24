@@ -81,7 +81,7 @@ dns:
    'dns.alidns.com': 223.5.5.5
    'dns.pub': 119.29.29.29
    'dns.twnic.tw': 101.101.101.101
-   '+.googleapis.cn': 'https://dns.google/dns-query'    
+   '+.googleapis.cn': 'https://cn-south.lele233.com/cdn'    
     
   enhanced-mode: redir-host 
   fake-ip-range: 198.18.0.1/16
