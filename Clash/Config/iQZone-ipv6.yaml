@@ -80,7 +80,7 @@ dns:
    
   nameserver:
       - 223.5.5.5
-      - http://dns.alidns.com/resolve
+      - https://dns.alidns.com/resolve
       - https://dns.pub/dns-query   
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
