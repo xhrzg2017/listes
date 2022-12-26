@@ -72,11 +72,11 @@ dns:
   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
      - '*.lan'
   nameserver-policy:
-   'dns.google': 8.8.8.8
-   'dns.alidns.com': 223.5.5.5
-   'doh.pub': 119.29.29.29
-   'dns.twnic.tw': 101.101.101.101
-   '+.googleapis.cn': 'tls://1.1.1.1'
+    dns.google: 8.8.8.8
+    dns.alidns.com: 223.5.5.5
+    doh.pub: 119.29.29.29
+    dns.twnic.tw: 101.101.101.101
+    "+.googleapis.cn": tls://1.1.1.1
    
   nameserver:
       - 223.5.5.5
