@@ -80,8 +80,8 @@ dns:
    
   nameserver:
       - 223.5.5.5
-      - https://dns.alidns.com/resolve
-      - https://dns.pub/dns-query   
+      - https://dns.alidns.com/dns-query#h3=true 
+      - https://doh.pub/dns-query    
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
@@ -91,9 +91,10 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-     - https://8.8.8.8/resolve#🇭🇰 香港节点
-     - https://dns.google/resolve#🇭🇰 香港节点
-     - https://101.101.101.101/dns-query#🇯🇵 日本节点
+     - https://doh.dns.sb/dns-query
+     - https://101.101.101.101/dns-query     
+     - tls://8.8.4.4:853#🇭🇰 香港节点
+
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
      #- tls://dns.rubyfish.cn:853
