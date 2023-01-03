@@ -23,7 +23,7 @@ allow-lan: true
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
 bind-address: "*"
-ipv6: true
+ipv6: false
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 # mode: rule
@@ -77,7 +77,8 @@ dns:
     doh.pub: 119.29.29.29
     dns.twnic.tw: 101.101.101.101
     "+.googleapis.cn": https://101.101.101.101/dns-query
-   
+    "+.bing.com": https://101.101.101.101/dns-query
+    
   nameserver:
       - 223.5.5.5
       - https://dns.alidns.com/dns-query
