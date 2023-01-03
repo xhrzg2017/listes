@@ -65,7 +65,7 @@ experimental:
 
 dns:
   enable: true # 是否启用dns false
-  ipv6: false
+  ipv6: true
   listen: 0.0.0.0:53
   enhanced-mode: redir-host # 模式：redir-host或fake-ip
   fake-ip-range: 198.18.0.1/16 #
@@ -76,8 +76,9 @@ dns:
     dns.alidns.com: 223.5.5.5
     doh.pub: 119.29.29.29
     dns.twnic.tw: 101.101.101.101
-    "+.googleapis.cn": https://101.101.101.101/dns-query 
-   
+    "+.googleapis.cn": https://101.101.101.101/dns-query
+    "+.bing.com": https://101.101.101.101/dns-query
+    
   nameserver:
       - 223.5.5.5
       - https://dns.alidns.com/dns-query#h3=true 
