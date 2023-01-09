@@ -94,7 +94,7 @@ dns:
   fallback:
      - https://doh.dns.sb/dns-query
      - https://101.101.101.101/dns-query   
-     - https://au-syd.xhrzg2017.xyz/dns-query
+     - https://au-syd-cf.xhrzg2017.xyz/dns-query
      - tls://8.8.4.4:853#🇭🇰 香港节点
 
      #- 8.8.8.8 # 谷歌DNS
