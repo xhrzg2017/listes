@@ -80,6 +80,7 @@ dns:
     doh.pub: 119.29.29.29
     dns.twnic.tw: 101.101.101.101
     "+.googleapis.cn": tls://8.8.4.4:853
+    "dl.google.com": tls://8.8.4.4:853
     "+.bing.com": tls://8.8.4.4:853
         
     
