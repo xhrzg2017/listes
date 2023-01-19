@@ -85,9 +85,9 @@ dns:
         
     
   nameserver:
-      - 223.5.5.5
-      - https://lele233.pro:2333/dns-query
-      - https://cn-south.lele233.com/cdn 
+      - https://au-syd.xhrzg2017.xyz/cn-query
+      - https://cn-east.iqiqzz.com/cdn
+      
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
@@ -96,8 +96,9 @@ dns:
      #- 114.114.114.114 # 114DNS
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
-  fallback: 
-     - https://au-syd.xhrzg2017.xyz/dns-query
+  fallback:
+     - https://au-syd.xhrzg2017.xyz/hk-query
+     - https://au-syd.xhrzg2017.xyz/cdn-query
      - tls://8.8.4.4:853#✈️ 起飞
      
   proxy-server-nameserver:
