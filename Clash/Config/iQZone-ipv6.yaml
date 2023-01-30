@@ -100,6 +100,7 @@ dns:
   fallback:
      - https://au-syd.xhrzg2017.xyz/dns-query
      - https://au-syd.xhrzg2017.xyz/cdn-query
+     - https://hk.lele233.cn:2333/dns-query
      
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
