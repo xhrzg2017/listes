@@ -98,7 +98,7 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-     - https://au-syd.xhrzg2017.xyz/dns-query
+     - tls://one.one.one.one
      - https://au-syd.xhrzg2017.xyz/cdn-query
      - https://hk.lele233.cn:2333/dns-query
      
