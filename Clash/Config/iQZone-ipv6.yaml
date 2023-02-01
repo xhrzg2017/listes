@@ -101,7 +101,7 @@ dns:
   fallback:
      - https://dns.cloudflare.com/dns-query
      - https://public.dns.iij.jp/dns-query
-     - https://jp.tiarap.org/dns-query
+     - https://hk.lele233.cn:2333/dns-query
      
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
