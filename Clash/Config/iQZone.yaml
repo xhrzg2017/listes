@@ -84,7 +84,6 @@ dns:
     "+.bing.com": tls://8.8.4.4:853
     
   nameserver:
-      - https://cn-south.iqiqzz.com/cdn
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       
