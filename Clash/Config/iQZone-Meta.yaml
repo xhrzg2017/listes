@@ -99,7 +99,7 @@ dns:
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
      - https://dns.cloudflare.com/dns-query
-     - http://public.dns.iij.jp/dns-query
+     - https://public.dns.iij.jp/dns-query
      - https://jp.tiarap.org/dns-query
      
   proxy-server-nameserver:
