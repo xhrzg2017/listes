@@ -86,7 +86,7 @@ dns:
     
   nameserver:
       - https://cn-south.iqiqzz.com/cdn
-      - https://cn-east.iqiqzz.com/cdn
+      - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       
      #- 223.5.5.5 # 阿里DNS
@@ -99,8 +99,8 @@ dns:
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
      - https://dns.cloudflare.com/dns-query
-     - https://au-syd.xhrzg2017.xyz/cdn-query
-     - https://hk.lele233.cn:2333/dns-query
+     - http://public.dns.iij.jp/dns-query
+     - https://jp.tiarap.org/dns-query
      
   proxy-server-nameserver:
      - https://dns.alidns.com/dns-query
