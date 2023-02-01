@@ -85,7 +85,6 @@ dns:
         
     
   nameserver:
-      - https://cn-south.iqiqzz.com/cdn
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       
