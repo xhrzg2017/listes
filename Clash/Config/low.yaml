@@ -84,8 +84,9 @@ dns:
     "+.bing.com": tls://8.8.4.4:853
     
   nameserver:
-      - 223.5.5.5
-      - https://lele233.pro:2333/dns-query
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+      
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
@@ -95,8 +96,9 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback: 
-     - tls://1.1.1.1:853
-     - tls://8.8.4.4:853
+     - https://dns.cloudflare.com/dns-query
+     - https://public.dns.iij.jp/dns-query
+     - https://jp.tiarap.org/dns-query
      
   proxy-server-nameserver:
      - https://233.5.5.5/dns-query
