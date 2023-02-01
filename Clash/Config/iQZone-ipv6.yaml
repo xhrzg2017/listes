@@ -86,7 +86,6 @@ dns:
     "emby-cf.xhrzg2017.xyz": tls://223.5.5.5:853
     
   nameserver:
-      - https://cn-south.iqiqzz.com/cdn
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       
