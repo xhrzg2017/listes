@@ -100,7 +100,7 @@ dns:
   fallback:
      - https://dns.cloudflare.com/dns-query
      - https://public.dns.iij.jp/dns-query
-     - https://jp.tiarap.org/dns-query
+     - https://hk.lele233.cn:2333/dns-query
      
   proxy-server-nameserver:
      - https://dns.alidns.com/dns-query
