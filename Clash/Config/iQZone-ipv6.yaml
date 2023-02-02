@@ -87,6 +87,7 @@ dns:
     
   nameserver:
       - https://doh.pub/dns-query
+      - tls://dot.pub
       - https://dns.alidns.com/dns-query
       
      #- 223.5.5.5 # 阿里DNS
@@ -99,7 +100,7 @@ dns:
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
      - https://dns.cloudflare.com/dns-query
-     - https://public.dns.iij.jp/dns-query
+     - https://cn-south.iqiqzz.com/dns-query
      - https://hk.lele233.cn:2333/dns-query
      
      #- 8.8.8.8 # 谷歌DNS
