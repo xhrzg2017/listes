@@ -97,7 +97,7 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-     - https://dns.cloudflare.com/dns-query
+     - https://dns.google/dns-query
      - https://cn-south.iqiqzz.com/dns-query
      - https://hk.lele233.cn:2333/dns-query
      
