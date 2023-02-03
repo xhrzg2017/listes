@@ -101,7 +101,7 @@ dns:
   fallback:
      - https://dns.google/dns-query
      - https://cn-south.iqiqzz.com/dns-query
-     - https://hk.lele233.cn:2333/dns-query
+     - https://public.dns.iij.jp/dns-query
      
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
