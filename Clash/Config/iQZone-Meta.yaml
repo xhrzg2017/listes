@@ -100,7 +100,7 @@ dns:
   fallback:
      - https://dns.google/dns-query
      - https://cn-south.iqiqzz.com/dns-query
-     - https://hk.lele233.cn:2333/dns-query
+     - https://public.dns.iij.jp/dns-query
      
   proxy-server-nameserver:
      - https://dns.alidns.com/dns-query
