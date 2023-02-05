@@ -98,7 +98,7 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-     - https://hk-hkg.doh.sb/dns-query
+     - https://1.0.0.1/dns-query
      - https://public.dns.iij.jp/dns-query
      - https://cn-south.iqiqzz.com/dns-query
      
