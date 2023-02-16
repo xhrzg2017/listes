@@ -97,7 +97,7 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-     - https://dns.cloudflare.com/dns-query
+     - https://chrome.cloudflare-dns.com/dns-query
      - https://public.dns.iij.jp/dns-query
      - tls://public.dns.iij.jp:853
 
