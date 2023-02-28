@@ -79,9 +79,6 @@ dns:
     dns.alidns.com: 223.5.5.5
     doh.pub: 119.29.29.29
     dns.twnic.tw: 101.101.101.101
-    "+.googleapis.cn": tls://public.dns.iij.jp:853
-    "dl.google.com": tls://public.dns.iij.jp:853
-    "+.bing.com": tls://public.dns.iij.jp:853
     
   nameserver:
       - https://doh.pub/dns-query
