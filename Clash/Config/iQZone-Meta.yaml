@@ -82,7 +82,7 @@ dns:
     
   nameserver:
       - https://doh.pub/dns-query
-      - tls://dot.pub
+      - tcp://114.114.114.114
       
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
