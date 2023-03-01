@@ -94,9 +94,10 @@ dns:
      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
      #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-     - https://dns.google/dns-query
-     - https://public.dns.iij.jp/dns-query
-     - tls://public.dns.iij.jp:853
+     - https://doh.dns.sb/dns-query
+     - https://dns.twnic.tw/dns-query
+     - https://dns.cloudflare.com/dns-query
+     - tls://8.8.4.4:853
 
      
   proxy-server-nameserver:
@@ -105,8 +106,9 @@ dns:
      
   fallback-filter:
      geoip: true # 默认
-     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-       #- 240.0.0.0/4
+     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       - 240.0.0.0/4
+       - 0.0.0.0/32
 
 tun:
   enable: true
