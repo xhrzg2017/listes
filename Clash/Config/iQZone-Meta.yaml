@@ -95,7 +95,8 @@ dns:
   fallback:
      - https://doh.dns.sb/dns-query
      - https://dns.cloudflare.com/dns-query
-     - tls://8.8.4.4:853
+     - https://dns.twnic.tw/dns-query
+     - tls://dns.google:853
 
      
   proxy-server-nameserver:
