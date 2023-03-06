@@ -96,8 +96,8 @@ dns:
   fallback:
      - https://doh.dns.sb/dns-query
      - https://dns.cloudflare.com/dns-query
-     - tls://8.8.4.4:853
-
+     - https://dns.twnic.tw/dns-query
+     - tls://dns.google:853
      
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
