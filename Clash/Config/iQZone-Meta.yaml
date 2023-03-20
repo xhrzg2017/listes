@@ -34,26 +34,33 @@ log-level: info
 # Clash 的 RESTful API
 external-controller: '127.0.0.1:9090'
 
-# 存放配置文件的相对路径，或存放网页静态资源的绝对路径
-# Clash core 将会将其部署在 http://{{external-controller}}/ui
+# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
+# 参数应填写配置目录的相对路径或绝对路径。
+# http://127.0.0.1:9090/ui/#/
 # external-ui: folder
+# yacd面板：  https://github.com/haishanh/yacd
+# Razord面板：http://clash.razord.top/#/proxies
+# external-ui: dashboard
 
 # RESTful API 的口令 (可选)
-# 通过 HTTP 头中 Authorization: Bearer ${secret} 参数来验证口令
-# 当 RESTful API 的监听地址为 0.0.0.0 时，请务必设定口令以保证安全
 # secret: ""
 
-# 出站网卡接口
-# interface-name: en0
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # interface-name: en0 # outbound interface name
 
-# DNS 服务器和建立连接时的 静态 Hosts, 仅在 dns.enhanced-mode 模式为 redir-host 生效
-# 支持通配符域名 (例如: *.clash.dev, *.foo.*.example.com )
-# 不使用通配符的域名优先级高于使用通配符的域名 (例如: foo.example.com > *.example.com > .example.com )
-# 注意: +.foo.com 的效果等同于 .foo.com 和 foo.com
-hosts:
-# '*.clash.dev': 127.0.0.1
-# '.dev': 127.0.0.1
-# 'alpha.clash.dev': '::1'
+# 本地 SOCKS5 / HTTP(S) 服务认证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
+# 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
+# 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
+# 注意: hosts 在 fake-ip 模式下不生效
+#hosts:
+#   '*.clash.dev': 127.0.0.1
+#   'alpha.clash.dev': '::1'
 
 # DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 dns:
