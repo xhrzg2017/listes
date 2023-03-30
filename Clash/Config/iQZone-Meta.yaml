@@ -93,7 +93,7 @@ dns:
      - 223.5.5.5  
      
   nameserver:
-      - https://doh.pub/dns-query
+      - https://doh.apad.pro/dns-query
       - https://cn-south.iqiqzz.com/dns-query
       
      #- 223.5.5.5 # 阿里DNS
