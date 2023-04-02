@@ -93,7 +93,8 @@ dns:
      - 223.5.5.5  
      
   nameserver:
-      - https://cn-east.iqiqzz.com/dns-query
+      - quic://cn-south.iqiqzz.com:853
+      - tcp://cn-south.ovo.glass:777
       - https://cn-south.iqiqzz.com/dns-query
       
      #- 223.5.5.5 # 阿里DNS
