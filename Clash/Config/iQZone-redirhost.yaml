@@ -81,7 +81,7 @@ dns:
      - '+.lan'
      - '+.msftncsi.com'
      - '+.msftconnecttest.com'
-     - 'dl.google.com'
+     - '+.*'
   nameserver-policy:
     dns.google: 8.8.8.8
     dns.alidns.com: 223.5.5.5
@@ -94,7 +94,8 @@ dns:
      
   nameserver:
       - https://doh.apad.pro/dns-query
-      - https://cn-south.iqiqzz.com/dns-query
+      - udp://202.96.128.166
+      - udp://202.96.128.86
       
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
