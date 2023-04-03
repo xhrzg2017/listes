@@ -95,7 +95,8 @@ dns:
      
   nameserver:
       - https://doh.apad.pro/dns-query
-      - udp://1.1.8.8
+      - udp://202.96.128.166
+      - udp://202.96.128.86
       
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
