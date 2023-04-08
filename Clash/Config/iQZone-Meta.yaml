@@ -93,9 +93,9 @@ dns:
      - 223.5.5.5  
      
   nameserver:
-      - https://cn-south.iqiqzz.com/dns-query
-      - udp://202.96.128.166
-      - udp://202.96.128.86
+    - https://doh.apad.pro/dns-query
+    - udp://114.114.114.110
+    - udp://1.1.8.8
       
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
