@@ -82,7 +82,7 @@ dns:
      - '+.lan'
      - '+.msftncsi.com'
      - '+.msftconnecttest.com'
-     - 'dl.google.com'
+
   nameserver-policy:
     dns.google: 8.8.8.8
     dns.alidns.com: 223.5.5.5
