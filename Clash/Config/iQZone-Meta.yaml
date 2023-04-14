@@ -94,7 +94,7 @@ dns:
   nameserver:
     - https://doh.apad.pro/dns-query
     - https://cn-south.iqiqzz.com/dns-query
-    - https://au-syd.xhrzg2017.xyz/cn-query
+    - https://au-syd.xhrzg2017.xyz/cn
     - udp://1.1.8.8
       
      #- 223.5.5.5 # 阿里DNS
