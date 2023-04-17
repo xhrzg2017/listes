@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-SUFFIX,hoyolab.com
 
 #亚服-日本阿里云
-IP-CIDR,8.211.128.0/18
+IP-CIDR,8.211.128.0/18,no-resolve
 
 #港台服-日本阿里云
-IP-CIDR,47.74.0.0/18
+IP-CIDR,47.74.0.0/18,no-resolve
