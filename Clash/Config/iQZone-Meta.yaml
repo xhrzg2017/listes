@@ -94,7 +94,8 @@ dns:
   nameserver:
     - https://cn-south.iqiqzz.com/dns-query
     - udp://cn-south.iqiqzz.com:777
-    - tcp://1.1.1.1
+    - tcp://223.5.5.5
+    - tcp://119.29.29.29
     
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
@@ -109,7 +110,8 @@ dns:
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
   fallback:
     - https://au-syd.xhrzg2017.xyz/dns-query
-    - https://au-syd.xhrzg2017.xyz/cdn
+    - https://au-syd.xhrzg2017.xyz/cdn    
+    - https://doh.apad.pro/dns-query
      
 
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
