@@ -143,11 +143,15 @@ dns:
       - 240.0.0.0/4
       - 255.255.255.255/32
     domain:
-      - '+.google.com'
-      - '+.facebook.com'
-      - '+.youtube.com'
-      - '+.githubusercontent.com'
-      - '+.googlevideo.com'
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - msftconnecttest.com
+      - msftncsi.com
 
 tun:
   enable: true #如果需要启用 TUN 模式，请设置为 true
