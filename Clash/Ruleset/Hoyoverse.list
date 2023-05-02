@@ -1,5 +1,9 @@
 # 内容：hoyoverse
 # 数量：7条
+
+#社区
+DOMAIN-SUFFIX,hoyolab.com
+
 #原神
 DOMAIN-KEYWORD,genshin
 DOMAIN,overseauspider.yuanshen.com
@@ -7,10 +11,12 @@ DOMAIN,autopatchhk.yuanshen.com
 DOMAIN,osasiadispatch.yuanshen.com
 DOMAIN,genshin.mihoyo.com
 DOMAIN-SUFFIX,hoyoverse.com
-DOMAIN-SUFFIX,hoyolab.com
 
 #亚服-日本阿里云
 IP-CIDR,8.211.128.0/18,no-resolve
 
 #港台服-日本阿里云
 IP-CIDR,47.74.0.0/18,no-resolve
+
+#崩铁-狮城阿里云
+DOMAIN,api-os-takumi.mihoyo.com
