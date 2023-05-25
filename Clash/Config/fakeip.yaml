@@ -230,7 +230,7 @@ dns:
 tun:
   enable: true #如果需要启用 TUN 模式，请设置为 true
   stack: system # 或 gvisor
-  macOS-auto-route: true
-  macOS-auto-detect-interface: true
+  auto-route: true
+  auto-detect-interface: true
   dns-hijack:
     - tcp://any:53
