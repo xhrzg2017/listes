@@ -1,7 +1,9 @@
 # 内容：CN domian
-# 数量：4条
+# 数量：6条
 DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dns.pub
 DOMAIN-SUFFIX,dot.pub
 DOMAIN-SUFFIX,iqiqzz.com
+DOMAIN-SUFFIX,zhipin.com
+DOMAIN,api.wfdata.club
