@@ -164,8 +164,8 @@ dns:
     dns.twnic.tw: 101.101.101.101
 
   proxy-server-nameserver:
-     - https://dns.alidns.com/dns-query
-     - 223.5.5.5  
+     - https://doh.pub/dns-query
+     - 119.29.29.29 
      
   nameserver:
     - https://dns.alidns.com/dns-query
