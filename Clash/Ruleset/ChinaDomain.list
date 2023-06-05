@@ -1,5 +1,5 @@
 # 内容：CN domian
-# 数量：6条
+
 #CN-DNS
 DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
@@ -12,3 +12,5 @@ DOMAIN,api.wfdata.club
 #找工作
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhiye.com
+#交通
+DOMAIN,www.fmetro.net
