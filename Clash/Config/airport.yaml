@@ -196,6 +196,9 @@ dns:
   # 采取以上逻辑进行域名解析是为了对抗 DNS 投毒攻击。
   fallback-filter:
     geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
     ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
