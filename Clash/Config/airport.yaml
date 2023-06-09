@@ -183,7 +183,7 @@ dns:
   fallback:
     - https://1.0.0.1/dns-query
     - https://dns.xhrzg2017.xyz/dns-query
-    - tls://8.8.4.4
+    - https://public.dns.iij.jp/dns-query
 
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
   # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
