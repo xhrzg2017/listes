@@ -90,6 +90,8 @@ dns:
 
   proxy-server-nameserver:
      - https://dns.xhrzg2017.xyz/dns-query
+     - https://au.xhrzg2017.xyz/dns-query
+     - https://kr.xhrzg2017.xyz/dns-query
      
   nameserver:
     - https://dns.alidns.com/dns-query
