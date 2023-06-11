@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dns.pub
 DOMAIN-SUFFIX,dot.pub
 DOMAIN-SUFFIX,iqiqzz.com
+#网易云
+DOMAIN-SUFFIX,haowu.link
 #威锋
 DOMAIN-SUFFIX,fengimg.com
 DOMAIN,api.wfdata.club
@@ -15,5 +17,5 @@ DOMAIN-SUFFIX,zhiye.com
 DOMAIN-SUFFIX,izhanchi.com
 #交通
 DOMAIN,www.fmetro.net
-#网络
+#网络CDN
 DOMAIN,www.mnn.tw
