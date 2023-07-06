@@ -165,11 +165,13 @@ dns:
 
   proxy-server-nameserver:
      - https://dns.xhrzg2017.xyz/dns-query
-     - https://au.xhrzg2017.xyz/dns-query
-     - https://kr.xhrzg2017.xyz/dns-query
+     - https://doh.xhrzg2017.xyz/dns-query
+
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+    - https://hk.lele233.cn:2333/dns-query
+    - https://doh.apad.pro/dns-query
+    - https://pdns.itxe.net/dns-query
+  
     
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
