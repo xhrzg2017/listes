@@ -162,8 +162,10 @@ dns:
     dns.twnic.tw: 101.101.101.101
 
   proxy-server-nameserver:
-     - https://dns.xhrzg2017.xyz/dns-query
-     - https://doh.xhrzg2017.xyz/dns-query
+     #- https://dns.xhrzg2017.xyz/dns-query
+     #- https://doh.xhrzg2017.xyz/dns-query
+    - https://hk.lele233.cn:2333/dns-query
+    - https://doh.apad.pro/dns-query
 
   nameserver:
     - https://hk.lele233.cn:2333/dns-query
