@@ -156,6 +156,8 @@ dns:
     ## QQ Quick Login
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
+    ## ipv6
+    - '+.ipw.cn'
     
   nameserver-policy:
     dns.google: 8.8.8.8
