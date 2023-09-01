@@ -173,8 +173,8 @@ dns:
 
   nameserver:
     - https://dns.xhrzg2017.xyz/dns-query
-    - https://doh.apad.pro/dns-query
-    - https://doh.opendns.com/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
   
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
