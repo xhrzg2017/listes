@@ -159,7 +159,7 @@ dns:
     - '+.ipw.cn'
     
   nameserver-policy:
-    - 'geosite:cn': https://doh.pub/dns-query
+    'geosite:cn': https://doh.pub/dns-query
     
   proxy-server-nameserver:
     - https://doh.pub/dns-query
