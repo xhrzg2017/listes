@@ -70,7 +70,6 @@ dns:
   default-nameserver:
     - 114.114.114.114
     - 8.8.8.8
-
   enhanced-mode: fake-ip # 或 redir-host
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
   # use-hosts: true # 查询 hosts 并返回 IP 记录
@@ -79,9 +78,85 @@ dns:
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   fake-ip-filter:
     # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
-    # === ALL ===
-    - '+.*'
-
+    # === LAN ===
+    - '*.example'
+    - '*.home.arpa'
+    - '*.invalid'
+    - '*.lan'
+    - '*.local'
+    - '*.localdomain'
+    - '*.localhost'
+    - '*.test'
+    # === Apple Software Update Service ===
+    - 'mesu.apple.com'
+    - 'swscan.apple.com'
+    # === ASUS Router ===
+    - '*.router.asus.com'
+    # === Google ===
+    - 'lens.l.google.com'
+    - 'stun.l.google.com'
+    ## Golang
+    - 'proxy.golang.org'
+    # === Linksys Wireless Router ===
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    # === Windows 10 Connnect Detection ===
+    - '*.ipv6.microsoft.com'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'msftconnecttest.com'
+    - 'msftncsi.com'
+    # === NTP Service ===
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - 'time.*.apple.com'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'time.*.edu.cn'
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - '+.pool.ntp.org'
+    - 'time1.cloud.tencent.com'
+    # === Game Service ===
+    ## Microsoft Xbox
+    - 'speedtest.cros.wr.pvp.net'
+    - '*.*.xboxlive.com'
+    - 'xbox.*.*.microsoft.com'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    ## Nintendo Switch
+    - '*.*.*.srv.nintendo.net'
+    - '+.srv.nintendo.net'
+    ## Sony PlayStation
+    - '*.*.stun.playstation.net'
+    - '+.stun.playstation.net'
+    ## STUN Server 
+    - '+.stun.*.*.*.*.*' 
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*'
+    - 'stun.*.*.*'
+    - 'stun.*.*'
+    # === Other ===
+    ## QQ Quick Login
+    - 'localhost.ptlogin2.qq.com'
+    - 'localhost.sec.qq.com'
+    ## ipv6
+    - '+.ipw.cn'
+    
   nameserver-policy:
     'geosite:cn': https://doh.pub/dns-query
     
@@ -107,7 +182,7 @@ dns:
     - https://dns.xhrzg2017.xyz/dns-query
     - tls://8.8.4.4
     - tls://1.1.1.1
-     
+    
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
   # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
   #
@@ -120,14 +195,13 @@ dns:
   # 采取以上逻辑进行域名解析是为了对抗 DNS 投毒攻击。
   fallback-filter:
     geoip: true
-    geoip-code: CN
-    geosite:
-      - gfw
     ipcidr:
       - 0.0.0.0/8
+      - 0.0.0.0/32
       - 10.0.0.0/8
       - 100.64.0.0/10
       - 127.0.0.0/8
+      - 127.0.0.1/32
       - 169.254.0.0/16
       - 172.16.0.0/12
       - 192.0.0.0/24
@@ -150,12 +224,19 @@ dns:
       - "+.msftncsi.com"
       - msftconnecttest.com
       - msftncsi.com
-
+      - "+.xn--ngstr-lra8j.com"
+      - "+.google.cn"
+      - "+.googleapis.cn"
+      - "+.googleapis.com"
+      - "+.gvt1.com"
+      - "+.twitter.com"
+      
 tun:
   enable: true
   stack: system
   dns-hijack:
     - 198.18.0.2:53
+    - tcp://any:53
   auto-route: true
   auto-detect-interface: true
   
@@ -169,7 +250,6 @@ cfw-conn-break-strategy: true
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
-# Stash
-url-rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302  
+profile:
+  store-selected: true
+  store-fake-ip: true
