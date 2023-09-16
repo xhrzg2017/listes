@@ -54,7 +54,7 @@ external-controller: '127.0.0.1:9090'
 # 支持通配符域名 (例如: *.clash.dev, *.foo.*.example.com )
 # 不使用通配符的域名优先级高于使用通配符的域名 (例如: foo.example.com > *.example.com > .example.com )
 # 注意: +.foo.com 的效果等同于 .foo.com 和 foo.com
-#hosts:
+hosts:
 # '*.clash.dev': 127.0.0.1
 # '.dev': 127.0.0.1
 # 'alpha.clash.dev': '::1'
@@ -68,8 +68,8 @@ dns:
   # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
   # 仅填写 DNS 服务器的 IP 地址
   default-nameserver:
-    - 223.5.5.5
     - 114.114.114.114
+    - 8.8.8.8
   enhanced-mode: fake-ip # 或 redir-host
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
   # use-hosts: true # 查询 hosts 并返回 IP 记录
@@ -154,10 +154,35 @@ dns:
     ## QQ Quick Login
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
+    ## ipv6
+    - '+.ipw.cn'
     
   nameserver-policy:
     'geosite:cn': https://doh.pub/dns-query
+    
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
 
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  
+     #- 223.5.5.5 # 阿里DNS
+     #- 180.76.76.76 # 百度DNS
+     #- 119.29.29.29 # 腾讯DNS
+     #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
+     #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
+     #- 114.114.114.114 # 114DNS
+     #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     #- https://doh.360.cn/dns-query # 360 DoH DNS
+     
+  # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
+  # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
+  fallback:
+    - https://dns.xhrzg2017.xyz/dns-query#✈️ 起飞
+    - tls://8.8.4.4#✈️ 起飞
+    - tls://1.1.1.1#✈️ 起飞
+    
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
   # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
   #
@@ -169,12 +194,14 @@ dns:
   #
   # 采取以上逻辑进行域名解析是为了对抗 DNS 投毒攻击。
   fallback-filter:
-    geoip: false
+    geoip: true
     ipcidr:
       - 0.0.0.0/8
+      - 0.0.0.0/32
       - 10.0.0.0/8
       - 100.64.0.0/10
       - 127.0.0.0/8
+      - 127.0.0.1/32
       - 169.254.0.0/16
       - 172.16.0.0/12
       - 192.0.0.0/24
@@ -197,12 +224,19 @@ dns:
       - "+.msftncsi.com"
       - msftconnecttest.com
       - msftncsi.com
-
+      - "+.xn--ngstr-lra8j.com"
+      - "+.google.cn"
+      - "+.googleapis.cn"
+      - "+.googleapis.com"
+      - "+.gvt1.com"
+      - "+.twitter.com"
+      
 tun:
   enable: true
   stack: system
   dns-hijack:
     - 198.18.0.2:53
+    - tcp://any:53
   auto-route: true
   auto-detect-interface: true
   
@@ -216,7 +250,6 @@ cfw-conn-break-strategy: true
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
-# Stash
-url-rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302    
+profile:
+  store-selected: true
+  store-fake-ip: true
