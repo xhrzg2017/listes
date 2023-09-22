@@ -20,9 +20,12 @@ DOMAIN-SUFFIX,zhiye.com
 DOMAIN-SUFFIX,izhanchi.com
 #交通
 DOMAIN,www.fmetro.net
+DOMAIN,www.crrcgc.cc
 #网络CDN
 DOMAIN,www.mnn.tw
 #游戏加速器
 DOMAIN-SUFFIX,biubiu001.com
 #蓝奏云
 DOMAIN-KEYWORD,lanzou
+#朴朴超市
+DOMAIN-SUFFIX,push.pupuapi.com
