@@ -1,21 +1,77 @@
-# 内容：hoyoverse
-# 数量：7条
+# 内容：hoyoverse game
 
-#社区
+# 社区
 DOMAIN-SUFFIX,hoyolab.com
 
-#原神
+# 原神
 DOMAIN-KEYWORD,genshin
 DOMAIN,overseauspider.yuanshen.com
 DOMAIN,autopatchhk.yuanshen.com
 DOMAIN,osasiadispatch.yuanshen.com
 DOMAIN,genshin.mihoyo.com
 DOMAIN-SUFFIX,hoyoverse.com
+# Windows原神与崩坏3启动器进程名
+PROCESS-NAME,launcher.exe
+PROCESS-NAME,QtWebEngineProcess.exe
 
-#原神-日本阿里云
+# Windows原神进程名
+PROCESS-NAME,GenshinImpact.exe
+PROCESS-NAME,ZFGameBrowser.exe
+
+# 安卓原神包名
+PROCESS-NAME,com.miHoYo.Yuanshen
+# 安卓原神国际服包名
+PROCESS-NAME,com.miHoYo.GenshinImpact
+
+# 原神游戏服务器端口
+DST-PORT,22101
+DST-PORT,22102
+DST-PORT,8999
+
+# 原神-日本阿里云
 IP-CIDR,8.211.128.0/18,no-resolve
 IP-CIDR,47.74.0.0/18,no-resolve
 IP-CIDR,47.245.0.0/18,no-resolve
 
+# 崩坏:星穹铁道
+# 崩坏:星穹铁道服务器端口
+DST-PORT,23301
 #崩铁-狮城阿里云
 DOMAIN,api-os-takumi.mihoyo.com
+
+# 崩坏3
+# Windows崩坏3进程名
+PROCESS-NAME,BH3.exe
+
+# 安卓崩坏3包名
+PROCESS-NAME,com.miHoYo.enterprise.NGHSoD
+# 安卓崩坏3日服包名
+PROCESS-NAME,com.miHoYo.bh3rdJP
+
+# 崩坏3游戏服务器端口
+DST-PORT,16100
+
+
+# 其它miHoYo相关
+# 后缀
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-SUFFIX,yuanshen.com
+DOMAIN-SUFFIX,houkai3rd.com
+DOMAIN-SUFFIX,bh3.com
+DOMAIN-SUFFIX,honkaiimpact3.com
+# 关键词
+DOMAIN-KEYWORD,hoyoverse
+DOMAIN-KEYWORD,mihoyo
+DOMAIN-KEYWORD,mihayo
+DOMAIN-KEYWORD,yuanshen
+DOMAIN-KEYWORD,honkaiimpact3
+DOMAIN-KEYWORD,bh3
+# 域名
+DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
+DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+DOMAIN,jp.f.gm.mob.com
+
+
+
