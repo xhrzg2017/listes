@@ -1,2 +1,12 @@
 #twitch上传
 DOMAIN,twitchuploadservice-infra-prod-us-ingest4069586c-608wwzuuil7q.s3-accelerate.amazonaws.com
+#404服务
+PROCESS-NAME,com.android.vending
+PROCESS-NAME,com.google.android.apps.googlevoice
+DOMAIN-SUFFIX,googleapis.cn
+#华为花瓣搜索引擎
+DOMAIN-SUFFIX,petalsearch.com
+#hoyoverse
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-KEYWORD,hoyoverse
+
