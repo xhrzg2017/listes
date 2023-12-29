@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dns.pub
 DOMAIN-SUFFIX,dot.pub
-DOMAIN-SUFFIX,iqiqzz.com
 #网易云
 DOMAIN-SUFFIX,haowu.link
 #威锋
@@ -30,3 +29,7 @@ DOMAIN-KEYWORD,lanzou
 #朴朴超市
 DOMAIN-SUFFIX,pupuapi.com
 DOMAIN-KEYWORD,pupumall
+#原神
+DOMAIN,cloud.huawei.com
+DOMAIN,genshin.pub
+DOMAIN,feixiaoqiu.com
