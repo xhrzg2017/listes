@@ -2,6 +2,7 @@
 
 # 社区
 DOMAIN-SUFFIX,hoyolab.com
+DOMAIN,hoyo.link
 
 # 原神
 DOMAIN-KEYWORD,genshin
@@ -28,16 +29,9 @@ DST-PORT,22101
 DST-PORT,22102
 DST-PORT,8999
 
-# 原神-日本阿里云
-IP-CIDR,8.211.128.0/18,no-resolve
-IP-CIDR,47.74.0.0/18,no-resolve
-IP-CIDR,47.245.0.0/18,no-resolve
-
 # 崩坏:星穹铁道
 # 崩坏:星穹铁道服务器端口
 DST-PORT,23301
-#崩铁-狮城阿里云
-DOMAIN,api-os-takumi.mihoyo.com
 
 # 崩坏3
 # Windows崩坏3进程名
@@ -45,12 +39,12 @@ PROCESS-NAME,BH3.exe
 
 # 安卓崩坏3包名
 PROCESS-NAME,com.miHoYo.enterprise.NGHSoD
+
 # 安卓崩坏3日服包名
 PROCESS-NAME,com.miHoYo.bh3rdJP
 
 # 崩坏3游戏服务器端口
 DST-PORT,16100
-
 
 # 其它miHoYo相关
 # 后缀
