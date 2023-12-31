@@ -1,5 +1,5 @@
 
-(?i:流量|时间|应急|过期|Bandwidth|expire),🏳️‍🌈
+(?i:机场|订阅|官网|重置|剩余|流量|过期|本站|用户|续费|邮箱|时间|应急|过期|Bandwidth|expire),🏳️‍🌈
 (?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 (?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇨🇳
 (?i:US|America|United.*?States|美国|美國|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥),🇺🇸
