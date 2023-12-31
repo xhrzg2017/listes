@@ -6,8 +6,10 @@ PROCESS-NAME,com.google.android.apps.googlevoice
 DOMAIN-SUFFIX,googleapis.cn
 #华为花瓣搜索引擎
 DOMAIN-SUFFIX,petalsearch.com
-DOMAIN,search-drcn.dt.dbankcloud.cn
-DOMAIN,search-drcn.dt.dbankcloud.com
+DOMAIN-SUFFIX,dbankcloud.com
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,dbankcloud.cn
+DOMAIN-SUFFIX,dbankcdn.cn
 #hoyoverse
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-KEYWORD,hoyoverse
