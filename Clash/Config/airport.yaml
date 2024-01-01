@@ -230,6 +230,8 @@ dns:
       - "+.googleapis.com"
       - "+.gvt1.com"
       - "+.twitter.com"
+      - "+.bing.com"
+      
       
 tun:
   enable: true
