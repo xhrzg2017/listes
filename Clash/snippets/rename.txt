@@ -1,5 +1,5 @@
 ;家宽
-HKT@家宽
+HKT|iCable|Hinet|Cogent@家宽
 
 ;简写
 Azure@AZ
