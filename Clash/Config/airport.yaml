@@ -58,6 +58,8 @@ hosts:
 # '*.clash.dev': 127.0.0.1
 # '.dev': 127.0.0.1
 # 'alpha.clash.dev': '::1'
+    'time.android.com': 203.107.6.88
+
 
 # DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 dns:
@@ -72,9 +74,8 @@ dns:
     - 8.8.8.8
   enhanced-mode: fake-ip # 或 redir-host
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
-  use-hosts: true # 查询 hosts 并返回 IP 记录
-   'time.android.com': 203.107.6.88
-
+  #use-hosts: true # 查询 hosts 并返回 IP 记录
+   
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   fake-ip-filter:
     # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
