@@ -58,7 +58,7 @@ hosts:
 # '*.clash.dev': 127.0.0.1
 # '.dev': 127.0.0.1
 # 'alpha.clash.dev': '::1'
-    'time.android.com': 203.107.6.88
+  'time.android.com': '203.107.6.88'
 
 
 # DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
