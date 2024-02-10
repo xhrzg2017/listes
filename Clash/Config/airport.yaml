@@ -243,7 +243,7 @@ tun:
   auto-detect-interface: true
   
 # Clash for Windows
-cfw-latency-url: http://time.android.com/generate_204
+cfw-latency-url:  https://cp.cloudflare.com/generate_204
 cfw-latency-timeout: 3000
 cfw-latency-type: 1
 cfw-conn-break-strategy: true
@@ -252,6 +252,11 @@ cfw-conn-break-strategy: true
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
+# Stash
+url-rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
+    
 profile:
   store-selected: true
   store-fake-ip: true
