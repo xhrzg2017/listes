@@ -181,7 +181,7 @@ dns:
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
   fallback:
     - https://dns.xhrzg2017.xyz/dns-query
-    - https://dns.xhrzg2017.xyz/modns-query
+    - https://dns.xhrzg2017.xyz/adgdns-query
     - tls://1.1.1.1
     
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
