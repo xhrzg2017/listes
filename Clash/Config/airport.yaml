@@ -181,8 +181,8 @@ dns:
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
   fallback:
     - https://dns.xhrzg2017.xyz/dns-query
-    - https://dns.xhrzg2017.xyz/adgdns-query
-    - tls://1.1.1.1
+    - https://dns.twnic.tw/dns-query
+    - https://dns.google/dns-query
     
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
   # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
@@ -251,11 +251,6 @@ cfw-conn-break-strategy: true
 # Clash for Android
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
-
-# Stash
-url-rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
     
 profile:
   store-selected: true
