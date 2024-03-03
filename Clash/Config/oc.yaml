@@ -165,8 +165,8 @@ dns:
     - https://doh.pub/dns-query
 
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - 127.0.0.1
+    #- https://dns.alidns.com/dns-query
   
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
