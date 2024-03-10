@@ -10,7 +10,6 @@
 # IP-CIDR6,2620:149:a44::/48
 
 # 战争前线
-DST-PORT,5223
 IP-CIDR,5.188.0.0/16,no-resolve
 DOMAIN-SUFFIX,gmru.net
 DOMAIN-SUFFIX,wfclutch.com
