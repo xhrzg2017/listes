@@ -1,0 +1,16 @@
+# === 战争前线 ===
+# 项目主页：https://github.com/xhrzg2017/listes
+
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 战争前线
+DST-PORT,5223
+IP-CIDR,5.188.0.0/16,no-resolve
+DOMAIN-SUFFIX,gmru.net
+DOMAIN-SUFFIX,wfclutch.com
