@@ -78,7 +78,7 @@ dns:
    
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   fake-ip-filter:
-    #LAN
+        #LAN
     *.lan
     *.localdomain
     *.example
@@ -110,7 +110,7 @@ dns:
     ntp7.*.com
     *.time.edu.cn
     *.ntp.org.cn
-    +.pool.ntp.org
+    "+.pool.ntp.org"
     time1.cloud.tencent.com
     #放行网易云音乐
     music.163.com
@@ -143,39 +143,39 @@ dns:
     *.music.migu.cn
     music.migu.cn
     #win10本地连接检测
-    +.msftconnecttest.com
-    +.msftncsi.com
+    "+.msftconnecttest.com"
+    "+.msftncsi.com"
     #QQ登录
     localhost.ptlogin2.qq.com
     localhost.sec.qq.com
-    +.qq.com
-    +.tencent.com
+    "+.qq.com"
+    "+.tencent.com"
     #Game
     #Nintendo Switch
-    +.srv.nintendo.net
-    *.n.n.srv.nintendo.net
+    "+.srv.nintendo.net"
+    *.n.n.srv.nintendo.net"
     #Sony PlayStation
-    +.stun.playstation.net
+    "+.stun.playstation.net"
     #Microsoft Xbox
     xbox.*.*.microsoft.com
     *.*.xboxlive.com
     xbox.*.microsoft.com
     xnotify.xboxlive.com
     #Wotgame
-    +.battlenet.com.cn
-    +.wotgame.cn
-    +.wggames.cn
-    +.wowsgame.cn
-    +.wargaming.net
+    "+.battlenet.com.cn"
+    "+.wotgame.cn"
+    "+.wggames.cn"
+    "+.wowsgame.cn"
+    "+.wargaming.net"
     #Golang
     proxy.golang.org
     #STUN
     stun.*.*
     stun.*.*.*
-    +.stun.*.*
-    +.stun.*.*.*
-    +.stun.*.*.*.*
-    +.stun.*.*.*.*.*
+    "+.stun.*.*"
+    "+.stun.*.*.*"
+    "+.stun.*.*.*.*"
+    "+.stun.*.*.*.*.*"
     #Linksys Router
     heartbeat.belkin.com
     *.linksys.com
@@ -194,7 +194,7 @@ dns:
     stun.l.google.com
     na.b.g-tun.com
     #Netflix
-    +.nflxvideo.net
+    "+.nflxvideo.net"
     #FinalFantasy XIV Worldwide Server & CN Server
     *.square-enix.com
     *.finalfantasyxiv.com
@@ -204,21 +204,21 @@ dns:
     #Bilibili
     *.mcdn.bilivideo.cn
     #Disney Plus
-    +.media.dssott.com
+    "+.media.dssott.com"
     #shark007 Codecs 
     shark007.net
     #Mijia
     Mijia Cloud
     #招商银行
-    +.cmbchina.com
-    +.cmbimg.com
+    "+.cmbchina.com"
+    "+.cmbimg.com"
     #AdGuard
     local.adguard.org
     #迅雷
-    +.sandai.net
-    +.n0808.com
+    "+.sandai.net"
+    "+.n0808.com"
     # ipv6
-    +.ipw.cn
+    "+.ipw.cn"
     
   nameserver-policy:
     'geosite:cn': https://doh.pub/dns-query
