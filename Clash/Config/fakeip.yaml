@@ -218,7 +218,7 @@ dns:
     +.sandai.net
     +.n0808.com
     # ipv6
-   '+.ipw.cn'
+    +.ipw.cn
     
   nameserver-policy:
     'geosite:cn': https://doh.pub/dns-query
