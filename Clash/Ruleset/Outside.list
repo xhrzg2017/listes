@@ -4,8 +4,6 @@ DOMAIN,twitchuploadservice-infra-prod-us-ingest4069586c-608wwzuuil7q.s3-accelera
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.apps.googlevoice
 DOMAIN-SUFFIX,googleapis.cn
-#CyberTV
-DST-PORT,19806
 #hoyoverse
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-KEYWORD,hoyoverse
