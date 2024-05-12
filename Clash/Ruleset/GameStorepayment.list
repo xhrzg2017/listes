@@ -1,0 +1,14 @@
+# === 游戏商店支付 ===
+# 项目主页：https://github.com/xhrzg2017/listes
+
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# smart2pay(Steam)
+DOMAIN-SUFFIX,globalapi.smart2pay.com
+DOMAIN-SUFFIX,globalep.smart2pay.com
