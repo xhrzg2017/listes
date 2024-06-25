@@ -58,6 +58,8 @@ hosts:
 # '*.clash.dev': 127.0.0.1
 # '.dev': 127.0.0.1
 # 'alpha.clash.dev': '::1'
+  'time.android.com': '203.107.6.88'
+
 
 # DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 dns:
@@ -72,41 +74,32 @@ dns:
     - 8.8.8.8
   enhanced-mode: fake-ip # 或 redir-host
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
-  # use-hosts: true # 查询 hosts 并返回 IP 记录
-
-
+  #use-hosts: true # 查询 hosts 并返回 IP 记录
+   
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   fake-ip-filter:
-    # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
-    # === LAN ===
-    - '*.example'
-    - '*.home.arpa'
-    - '*.invalid'
+    #LAN
     - '*.lan'
-    - '*.local'
     - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
     - '*.localhost'
     - '*.test'
-    # === Apple Software Update Service ===
-    - 'mesu.apple.com'
-    - 'swscan.apple.com'
-    # === ASUS Router ===
-    - '*.router.asus.com'
-    # === Google ===
-    - 'lens.l.google.com'
-    - 'stun.l.google.com'
-    ## Golang
-    - 'proxy.golang.org'
-    # === Linksys Wireless Router ===
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
-    # === Windows 10 Connnect Detection ===
-    - '*.ipv6.microsoft.com'
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - 'msftconnecttest.com'
-    - 'msftncsi.com'
-    # === NTP Service ===
+    - '*.local'
+    - '*.home.arpa'
+    #放行NTP服务
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.edu.cn'
+    - 'time.*.apple.com'
+    - 'time-ios.apple.com'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
     - 'ntp.*.com'
     - 'ntp1.*.com'
     - 'ntp2.*.com'
@@ -115,46 +108,116 @@ dns:
     - 'ntp5.*.com'
     - 'ntp6.*.com'
     - 'ntp7.*.com'
-    - 'time.*.apple.com'
-    - 'time.*.com'
-    - 'time.*.gov'
-    - 'time1.*.com'
-    - 'time2.*.com'
-    - 'time3.*.com'
-    - 'time4.*.com'
-    - 'time5.*.com'
-    - 'time6.*.com'
-    - 'time7.*.com'
-    - 'time.*.edu.cn'
     - '*.time.edu.cn'
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
-    # === Game Service ===
-    ## Microsoft Xbox
-    - 'speedtest.cros.wr.pvp.net'
-    - '*.*.xboxlive.com'
-    - 'xbox.*.*.microsoft.com'
-    - 'xbox.*.microsoft.com'
-    - 'xnotify.xboxlive.com'
-    ## Nintendo Switch
-    - '*.*.*.srv.nintendo.net'
-    - '+.srv.nintendo.net'
-    ## Sony PlayStation
-    - '*.*.stun.playstation.net'
-    - '+.stun.playstation.net'
-    ## STUN Server 
-    - '+.stun.*.*.*.*.*' 
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*'
-    - 'stun.*.*.*'
-    - 'stun.*.*'
-    # === Other ===
-    ## QQ Quick Login
+    #放行网易云音乐
+    - 'music.163.com'
+    - '*.music.163.com'
+    - '*.126.net'
+    #百度音乐
+    - 'musicapi.taihe.com'
+    - 'music.taihe.com'
+    #酷狗音乐
+    - 'songsearch.kugou.com'
+    - 'trackercdn.kugou.com'
+    #酷我音乐
+    - '*.kuwo.cn'
+    #JOOX音乐
+    - 'api-jooxtt.sanook.com'
+    - 'api.joox.com'
+    - 'joox.com'
+    #QQ音乐
+    - 'y.qq.com'
+    - '*.y.qq.com'
+    - 'streamoc.music.tc.qq.com'
+    - 'mobileoc.music.tc.qq.com'
+    - 'isure.stream.qqmusic.qq.com'
+    - 'dl.stream.qqmusic.qq.com'
+    - 'aqqmusic.tc.qq.com'
+    - 'amobile.music.tc.qq.com'
+    #虾米音乐
+    - '*.xiami.com'
+    #咪咕音乐
+    - '*.music.migu.cn'
+    - 'music.migu.cn'
+    #win10本地连接检测
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    #QQ登录
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
-    ## ipv6
+    - '+.qq.com'
+    - '+.tencent.com'
+    #Game'
+    #Nintendo Switch
+    - '+.srv.nintendo.net'
+    - '*.n.n.srv.nintendo.net'
+    #Sony PlayStation'
+    - '+.stun.playstation.net'
+    #Microsoft Xbox
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    #Wotgame
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
+    #Golang
+    - 'proxy.golang.org'
+    #STUN
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    #Linksys Router
+    - 'heartbeat.belkin.com'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    #ASUS Router
+    - '*.router.asus.com'
+    #Apple Software Update Service
+    - 'mesu.apple.com'
+    - 'swscan.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    #Google
+    - 'lens.l.google.com'
+    - 'stun.l.google.com'
+    - 'na.b.g-tun.com'
+    #Netflix
+    - '+.nflxvideo.net'
+    #FinalFantasy XIV Worldwide Server & CN Server
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.ff14.sdo.com'
+    - 'ff.dorado.sdo.com'
+    #Bilibili
+    - '*.mcdn.bilivideo.cn'
+    #Disney Plus
+    - '+.media.dssott.com'
+    #shark007 Codecs 
+    - 'shark007.net'
+    #Mijia
+    - 'Mijia Cloud'
+    #招商银行
+    - '+.cmbchina.com'
+    - '+.cmbimg.com'
+    #AdGuard'
+    - 'local.adguard.org'
+    #迅雷
+    - '+.sandai.net'
+    - '+.n0808.com'
+    # ipv6'
     - '+.ipw.cn'
     
   nameserver-policy:
@@ -164,8 +227,8 @@ dns:
     - https://doh.pub/dns-query
 
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - 127.0.0.1
+    #- https://dns.alidns.com/dns-query
   
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
@@ -179,9 +242,10 @@ dns:
   # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
   fallback:
-    - https://dns.xhrzg2017.xyz/dns-query
-    - tls://8.8.4.4
-    - tls://1.1.1.1
+    - https://doh.xhrzg2017.xyz/dns-query
+    #- https://doh.apad.pro/dns-query
+    - https://dns.twnic.tw/dns-query
+    #- https://dns.google/dns-query
     
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
   # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
@@ -230,18 +294,19 @@ dns:
       - "+.googleapis.com"
       - "+.gvt1.com"
       - "+.twitter.com"
+      - "+.bing.com"     
       
 tun:
   enable: true
   stack: system
   dns-hijack:
-    - 198.18.0.2:53
+    - any:53
     - tcp://any:53
   auto-route: true
   auto-detect-interface: true
   
 # Clash for Windows
-cfw-latency-url: http://time.android.com/generate_204
+cfw-latency-url: http://cp.cloudflare.com/generate_204
 cfw-latency-timeout: 3000
 cfw-latency-type: 1
 cfw-conn-break-strategy: true
@@ -250,15 +315,19 @@ cfw-conn-break-strategy: true
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
+# Stash
+url-rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
+    
 profile:
   store-selected: true
   store-fake-ip: true
   
 script:
   shortcuts:
-    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
-    BilibiliUdp: network == "udp" and match_provider("BiliBili")
+      DirectUdp: |
+      network == "udp" and (dst_port == 123 or (dst_port >= 136 and dst_port <=139))
     
 rules:
-  - SCRIPT,quic,REJECT
-  - SCRIPT,BilibiliUdp,REJECT
+  - SCRIPT,DirectUdp,DIRECT
