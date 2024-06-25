@@ -326,7 +326,7 @@ profile:
   
 script:
   shortcuts:
-      DirectUdp: |
+    DirectUdp: |
       network == "udp" and (dst_port == 123 or (dst_port >= 136 and dst_port <=139))
     
 rules:
