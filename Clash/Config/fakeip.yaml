@@ -297,10 +297,9 @@ dns:
       
 tun:
   enable: true
-  stack: system
+  stack: gvisor
   dns-hijack:
-    - 198.18.0.2:53
-    - tcp://any:53
+    - any:53
   auto-route: true
   auto-detect-interface: true
   
@@ -314,6 +313,3 @@ cfw-conn-break-strategy: true
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
 
-profile:
-  store-selected: true
-  store-fake-ip: true
