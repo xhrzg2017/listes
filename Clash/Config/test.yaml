@@ -294,19 +294,17 @@ dns:
       - "+.googleapis.com"
       - "+.gvt1.com"
       - "+.twitter.com"
-      - "+.bing.com"     
       
 tun:
   enable: true
-  stack: system
+  stack: gvisor
   dns-hijack:
     - any:53
-    - tcp://any:53
   auto-route: true
   auto-detect-interface: true
   
 # Clash for Windows
-cfw-latency-url: http://cp.cloudflare.com/generate_204
+cfw-latency-url:  https://cp.cloudflare.com/generate_204
 cfw-latency-timeout: 3000
 cfw-latency-type: 1
 cfw-conn-break-strategy: true
@@ -314,20 +312,3 @@ cfw-conn-break-strategy: true
 # Clash for Android
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
-
-# Stash
-url-rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-    
-profile:
-  store-selected: true
-  store-fake-ip: true
-  
-script:
-  shortcuts:
-    DirectUdp: |
-      network == "udp" and (dst_port == 123 or (dst_port >= 136 and dst_port <=139))
-    
-rules:
-  - SCRIPT,DirectUdp,DIRECT
