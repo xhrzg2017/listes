@@ -298,10 +298,9 @@ dns:
       
 tun:
   enable: true
-  stack: system
+  stack: gvisor
   dns-hijack:
-    - 198.18.0.2:53
-    - tcp://any:53
+    - any:53
   auto-route: true
   auto-detect-interface: true
   
@@ -314,16 +313,3 @@ cfw-conn-break-strategy: true
 # Clash for Android
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
-    
-profile:
-  store-selected: true
-  store-fake-ip: true
-  
-script:
-  shortcuts:
-    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
-    BilibiliUdp: network == "udp" and match_provider("BiliBili")
-    
-rules:
-  - SCRIPT,quic,REJECT
-  - SCRIPT,BilibiliUdp,REJECT
