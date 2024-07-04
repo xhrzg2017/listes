@@ -33,6 +33,10 @@ DST-PORT,8999
 # 崩坏:星穹铁道服务器端口
 DST-PORT,23301
 
+#绝区零
+# 绝区零服务器端口
+DST-PORT,1884
+
 # 崩坏3
 # Windows崩坏3进程名
 PROCESS-NAME,BH3.exe
@@ -60,7 +64,7 @@ DOMAIN-KEYWORD,mihoyo
 DOMAIN-KEYWORD,mihayo
 DOMAIN-KEYWORD,yuanshen
 DOMAIN-KEYWORD,honkaiimpact3
-DOMAIN-KEYWORD,bh3
+DOMAIN-KEYWORD,zenless
 # 域名
 DOMAIN,hk-bundle-jp-mihayo.akamaized.net
 DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
