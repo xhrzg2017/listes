@@ -312,3 +312,13 @@ cfw-conn-break-strategy: true
 # Clash for Android
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
+  
+geodata-mode: true
+geodata-loader: memconservative
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+geo-auto-update: true
+geo-update-interval: 24
