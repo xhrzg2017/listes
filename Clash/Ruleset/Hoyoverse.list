@@ -35,7 +35,7 @@ DST-PORT,23301
 
 #绝区零
 # 绝区零服务器端口
-DST-PORT,1884
+DST-PORT,20501
 
 # 崩坏3
 # Windows崩坏3进程名
