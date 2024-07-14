@@ -4,8 +4,7 @@ DOMAIN,twitchuploadservice-infra-prod-us-ingest4069586c-608wwzuuil7q.s3-accelera
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.apps.googlevoice
 DOMAIN-SUFFIX,googleapis.cn
-#hoyoverse
-DOMAIN-SUFFIX,hoyoverse.com
-DOMAIN-KEYWORD,hoyoverse
+#Apple MAP
+DOMAIN-SUFFIX,ls.apple.com
 #realme
 DOMAIN-SUFFIX,c.realme.com
