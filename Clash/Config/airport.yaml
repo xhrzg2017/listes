@@ -221,8 +221,10 @@ dns:
     - '+.ipw.cn'
     
   nameserver-policy:
-    'geosite:cn': https://doh.pub/dns-query
-    
+        'geosite:!cn':
+            - 'https://doh.xhrzg2017.xyz/dns-query'
+            - 'https://dns.twnic.tw/dns-query'  
+            
   proxy-server-nameserver:
     - https://doh.pub/dns-query
 
@@ -246,10 +248,7 @@ dns:
     #- https://doh.apad.pro/dns-query
     #- https://dns.twnic.tw/dns-query
     #- https://dns.google/dns-query
-  nameserver-policy:
-        'geosite:!cn':
-            - 'https://doh.xhrzg2017.xyz/dns-query'
-            - 'https://dns.twnic.tw/dns-query'  
+
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
   # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
   #
