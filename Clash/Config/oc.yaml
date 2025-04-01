@@ -305,6 +305,7 @@ tun:
     - any:53
   auto-route: false
   auto-detect-interface: false
+  endpoint-independent-nat: true
   
 # Clash for Windows
 cfw-latency-url:  https://cp.cloudflare.com/generate_204
