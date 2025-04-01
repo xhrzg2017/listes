@@ -301,8 +301,8 @@ tun:
   stack: gvisor
   dns-hijack:
     - any:53
-  auto-route: true
-  auto-detect-interface: true
+  auto-route: false
+  auto-detect-interface: false
   
 # Clash for Windows
 cfw-latency-url:  https://cp.cloudflare.com/generate_204
