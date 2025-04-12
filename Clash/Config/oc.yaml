@@ -219,7 +219,10 @@ dns:
     - '+.n0808.com'
     # ipv6'
     - '+.ipw.cn'
-    
+  nameserver-policy:
+    geosite:!cn:
+      - https://doh.xhrzg2017.xyz/dns-query
+      - https://1.1.1.1/dns-query 
   proxy-server-nameserver:
     - https://doh.pub/dns-query
 
