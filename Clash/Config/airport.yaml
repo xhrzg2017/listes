@@ -300,12 +300,32 @@ dns:
       
 tun:
   enable: true
-  stack: gvisor
+  stack: mixed
+  device: utun
+  auto-route: true
+  auto-detect-interface: true
   dns-hijack:
     - any:53
-  auto-route: false
-  auto-detect-interface: false
-  endpoint-independent-nat: true
+    - tcp://any:53
+  strict-route: true
+  mtu: 1500
+  # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
+  route-exclude-address: ["10.144.0.0/16"]
+
+### 域名嗅探
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com" 
   
 # Clash for Windows
 cfw-latency-url:  https://cp.cloudflare.com/generate_204
