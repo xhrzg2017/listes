@@ -3,6 +3,9 @@
 DOMAIN-SUFFIX,lungfung.hk
 DOMAIN-KEYWORD,openrice
 
+#CN-TW
+DOMAIN-SUFFIX,techbang.com
+
 #JP
 DOMAIN-KEYWORD,weathernews
 DOMAIN-SUFFIX,rcsc.co.jp
