@@ -12,4 +12,10 @@ DOMAIN-SUFFIX,rcsc.co.jp
 DOMAIN-SUFFIX,jreast.co.jp
 DOMAIN-SUFFIX,westjr.co.jp
 
+#Global
+DOMAIN-SUFFIX,foursquare.com
+DOMAIN-SUFFIX,tenor.co
+
+
 DOMAIN-SUFFIX,xhrzg2017.xyz
+
