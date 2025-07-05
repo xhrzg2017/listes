@@ -244,9 +244,9 @@ dns:
   # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
   fallback:
-    - https://doh.xhrzg2017.xyz/dns-query
-    - https://doh.apad.pro/dns-query
-    #- https://dns.twnic.tw/dns-query
+    - https://doh.xhrzg2017.xyz/api
+    - https://dns.twnic.tw/dns-query
+    
     #- https://dns.google/dns-query
 
   # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
@@ -300,15 +300,14 @@ dns:
       
 tun:
   enable: true
-  stack: mixed
+  stack: gvisor
   device: utun
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - any:53
-    - tcp://any:53
-  strict-route: true
-  mtu: 1500
+  endpoint-independent-nat: true
+  auto-route: false
+  auto-detect-interface: false
+  auto-redirect: false
+  strict-route: false
+
   # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
   route-exclude-address: ["10.144.0.0/16"]
 
