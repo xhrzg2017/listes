@@ -298,15 +298,14 @@ dns:
       
 tun:
   enable: true
-  stack: mixed
+  stack: gvisor
   device: utun
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - any:53
-    - tcp://any:53
-  strict-route: true
-  mtu: 1500
+  endpoint-independent-nat: true
+  auto-route: false
+  auto-detect-interface: false
+  auto-redirect: false
+  strict-route: false
+
   # 如果有使用zerotier或者headscale等，需要自己配置排除自己的网段
   route-exclude-address: ["10.144.0.0/16"]
 
