@@ -6,5 +6,9 @@ PROCESS-NAME,com.google.android.apps.googlevoice
 DOMAIN-SUFFIX,googleapis.cn
 #Apple MAP
 DOMAIN-SUFFIX,ls.apple.com
+
 #realme
 DOMAIN-SUFFIX,c.realme.com
+
+#huawei
+ DOMAIN-SUFFIX,petalmaps.com
